@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b75e1f00cd49ed42b21c074fd95a840, type: 3}
+  m_Name: Intro
+  m_EditorClassIdentifier: 
+  characters:
+  - {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+  - {fileID: 11400000, guid: f57eb7197e619e64794a2b0922d6b4f6, type: 2}
+  dialogueInfo:
+  - character: {fileID: 11400000, guid: f57eb7197e619e64794a2b0922d6b4f6, type: 2}
+    characterEmotion: 0
+    myText: Bonjour Monsieur, je peux vous aider ?
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 0
+    myText: "Bonjour, je suis d\xE9tective et j\u2019enqu\xEAte sur la r\xE9cente
+      disparition d\u2019une jeune femme."
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 2
+    myText: "Son nom est Sophie, il me semble qu'elle est une habitu\xE9e de votre
+      \xE9tablissement.  "
+  - character: {fileID: 11400000, guid: f57eb7197e619e64794a2b0922d6b4f6, type: 2}
+    characterEmotion: 6
+    myText: "Mince ! J\u2019ignorais qu\u2019elle avait disparu !"
+  - character: {fileID: 11400000, guid: f57eb7197e619e64794a2b0922d6b4f6, type: 2}
+    characterEmotion: 5
+    myText: Pauvre gosse, une fille vraiment douce. Je ne sais pas vraiment en quoi
+      je peux vous aider...
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 0
+    myText: "Je fais tout mon possible pour la retrouver saine et sauve. Puis-je
+      vous poser quelques questions s\u2019il vous pla\xEEt ?   "
+  - character: {fileID: 11400000, guid: f57eb7197e619e64794a2b0922d6b4f6, type: 2}
+    characterEmotion: 5
+    myText: "Oui bien s\xFBr, allez-y ! Si \xE7a peut vous aider \xE0 retrouver la
+      gamine !"
+  questionText: Faites votre choix
+  optionsInfo:
+  - buttonName: Victime
+    nextDialogue: {fileID: 11400000, guid: 76247cfdc4591514ab1dea4bd1ad2378, type: 2}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - buttonName: Facture
+    nextDialogue: {fileID: 11400000, guid: 5bddad2c7d1b60c44b87aa2f5630d43f, type: 2}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 267a3ab5abd11644f98308bed8246aaf, type: 2}
+          m_TargetAssemblyTypeName: EventBehaviour, Assembly-CSharp
+          m_MethodName: TestEvent
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2

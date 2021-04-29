@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4317e486bc6889e4481102920e658482, type: 3}
+  m_Name: Barman
+  m_EditorClassIdentifier: 
+  myName: BARMAN
+  myVoice: {fileID: 8300000, guid: f9880fbb8db7f03418b9f659f9d384da, type: 3}
+  emotionPortraits:
+    standard: {fileID: 21300000, guid: ae7b5711e3cc36b468f0136ea7761f53, type: 3}
+    happy: {fileID: 21300000, guid: e9698ea1dbb1d124cbbdd6990c3efe79, type: 3}
+    curious: {fileID: 21300000, guid: 4c8a848b7d590de4bb85ca67862deebd, type: 3}
+    thoughtful: {fileID: 21300000, guid: 7cedaf2906f7ef34c96f952b695e1e98, type: 3}
+    offended: {fileID: 21300000, guid: cbf38df1d0737fe4bb8f179ade8f260f, type: 3}
+    worried: {fileID: 21300000, guid: 4c8a848b7d590de4bb85ca67862deebd, type: 3}
+    shocked: {fileID: 21300000, guid: 40389398df153674daa20f8ecb3a55b1, type: 3}
+    arrogant: {fileID: 21300000, guid: dfd50d24aeb06584091cb93d646a194f, type: 3}
+    angry: {fileID: 21300000, guid: 3c9d7b9257db0bf4899686574063c1a7, type: 3}
