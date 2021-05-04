@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4317e486bc6889e4481102920e658482, type: 3}
   m_Name: Nico
   m_EditorClassIdentifier: 
-  myName: 
-  myVoice: {fileID: 0}
+  myName: NICOLAS
+  myVoice: {fileID: 8300000, guid: f9880fbb8db7f03418b9f659f9d384da, type: 3}
   emotionPortraits:
-    standard: {fileID: 0}
+    standard: {fileID: 21300000, guid: 80ac5f7d5e9f98c4281ed8a1c80432d4, type: 3}
     happy: {fileID: 0}
     curious: {fileID: 0}
     thoughtful: {fileID: 0}

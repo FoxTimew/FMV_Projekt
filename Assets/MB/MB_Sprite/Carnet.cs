@@ -14,7 +14,7 @@ public class Carnet : MonoBehaviour
 	[SerializeField]
 	private Text clue, nameText;
 
-	private string[] characterName = {"Nicolas", "Amélie", "Wilhem", "Sophie", "Enquête" };
+	private string[] characterName = {"Nicolas", "Amélie", "Willem", "Sophie", "Enquête" };
 
 	[SerializeField]
 	private Sprite[] charactersPictures = new Sprite[5];
@@ -23,14 +23,14 @@ public class Carnet : MonoBehaviour
 
 	private void Start()
 	{
-		for (int i = 0; i < 10; i++)
+		/*for (int i = 0; i < 10; i++)
 		{
 			AddClue("Text Numéro" + i, "Nicolas");
 			AddClue("Text Numéro" + i + 10, "Amélie");
-			AddClue("Text Numéro" + i + 100, "Wilhem");
+			AddClue("Text Numéro" + i + 100, "Willem");
 			AddClue("Text Numéro" + i + 1000, "Sophie");
 			AddClue("Text Numéro" + i + 10000, "Enquete");
-		}
+		}*/
 	}
 
 	public void AddClue(string text, string character)
@@ -43,7 +43,7 @@ public class Carnet : MonoBehaviour
 			case "Amélie":
 				cluesOfCharacter[1] = cluesOfCharacter[1] + "\n" + text;
 				break;
-			case "Wilhem":
+			case "Willem":
 				cluesOfCharacter[2] = cluesOfCharacter[2] + "\n" + text;
 				break;
 			case "Sophie":
