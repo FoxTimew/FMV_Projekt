@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4317e486bc6889e4481102920e658482, type: 3}
-  m_Name: Nico
+  m_Name: Willem
   m_EditorClassIdentifier: 
-  myName: NICOLAS
+  myName: WHILEM
   myVoice: {fileID: 8300000, guid: f9880fbb8db7f03418b9f659f9d384da, type: 3}
   emotionPortraits:
-    standard: {fileID: 21300000, guid: 80ac5f7d5e9f98c4281ed8a1c80432d4, type: 3}
+    standard: {fileID: 0}
     happy: {fileID: 0}
     curious: {fileID: 0}
     thoughtful: {fileID: 0}
