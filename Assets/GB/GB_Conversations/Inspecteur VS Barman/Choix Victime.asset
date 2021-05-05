@@ -21,12 +21,11 @@ MonoBehaviour:
     myText: Vous connaissez bien la victime ?
   - character: {fileID: 11400000, guid: f57eb7197e619e64794a2b0922d6b4f6, type: 2}
     characterEmotion: 3
-    myText: Bien, je ne sais pas. Elle vient souvent au bar seule et se confie un
-      peu.
+    myText: Bien, je ne sais pas. Elle vient ici souvent seule et se confie parfois.
   - character: {fileID: 11400000, guid: f57eb7197e619e64794a2b0922d6b4f6, type: 2}
     characterEmotion: 5
     myText: "C\u2019est parfois dur d\u2019\xEAtre une jeune femme de nos jours.
-      \r\nJe ne la connais pas du tout en dehors de ce cadre."
+      Je ne la connais pas du tout en dehors."
   questionText: Faites votre choix
   optionsInfo:
   - buttonName: Facture

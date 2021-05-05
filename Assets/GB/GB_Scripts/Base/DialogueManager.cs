@@ -63,7 +63,7 @@ public class DialogueManager : MonoBehaviour
     private string completeText;
 
     //référence NameHolder
-    public Transform nameHolder;
+    public RectTransform nameHolder;
 
     private DialogueBase currentDialogue;
 
@@ -112,6 +112,7 @@ public class DialogueManager : MonoBehaviour
             CompleteText();
             StopAllCoroutines();
             isCurrentlyTyping = false;
+            
             //tout ce qu'il y a après le return n'est pas utilisé
             return;
         }
@@ -127,11 +128,15 @@ public class DialogueManager : MonoBehaviour
         DialogueBase.Info info = dialogueInfo.Dequeue();
         completeText = info.myText;
 
-        //change la postion du nom
-        nameHolder.position = characterPortraits[GetCurrentCharacterIndex(info)].gameObject.transform.position - new Vector3(0,25);
+       //nameHolder.position = characterPortraits[GetCurrentCharacterIndex(info)].gameObject.transform.position - new Vector3(1000,10);
 
         //dialogueName.text = info.myName;
         dialogueName.text = info.character.myName;
+        if (dialogueName.text == "INSPECTEUR")
+            nameHolder.localPosition = new Vector2(-190, nameHolder.localPosition.y);
+        else
+            nameHolder.localPosition = new Vector2(190, nameHolder.localPosition.y);
+
         dialogueText.text = info.myText;
         //dialoguePortrait.sprite = info.myPortrait;
 
@@ -164,6 +169,7 @@ public class DialogueManager : MonoBehaviour
                 characterPortraits[i].color = hexToColor("FFFFFF");
                 //agrandit le perso qui parle
                 characterPortraits[i].rectTransform.localScale = new Vector3(0.15f, 0.15f);
+                //nameHolder.localPosition = new Vector2(nameHolder.localPosition.x * -1, nameHolder.localPosition.y);
 
             }
             //ce perso ne parle pas
@@ -175,7 +181,6 @@ public class DialogueManager : MonoBehaviour
             }
         }
     }
-        
 
     private int GetCurrentCharacterIndex(DialogueBase.Info info)
     {
@@ -202,8 +207,8 @@ public class DialogueManager : MonoBehaviour
             //au lieu de My Portrait qui est l'émotion actuel, on utilise l'émotion Standard par défaut
             characterPortraits[i].sprite = db.characters[i].emotionPortraits.standard;
 
-        }
 
+        }
     }
 
     //Fonction pause ponctuation
@@ -341,3 +346,4 @@ public class DialogueManager : MonoBehaviour
     }
     //
 }
+
