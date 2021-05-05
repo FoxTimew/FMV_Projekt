@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4317e486bc6889e4481102920e658482, type: 3}
   m_Name: Willem
   m_EditorClassIdentifier: 
-  myName: WHILEM
+  myName: WILLEM
   myVoice: {fileID: 8300000, guid: f9880fbb8db7f03418b9f659f9d384da, type: 3}
   emotionPortraits:
     standard: {fileID: 0}

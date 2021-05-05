@@ -18,8 +18,8 @@ MonoBehaviour:
   dialogueInfo:
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
     characterEmotion: 0
-    myText: "J\u2019ai trouv\xE9 une facture de votre \xE9tablissement pour des boissons
-      chez Sophie. Celle-ci est dat\xE9e du vendredi soir, soit le soir de la disparition."
+    myText: "J\u2019ai trouv\xE9 une facture de votre \xE9tablissement chez Sophie.
+      Celle-ci date de vendredi soir, soit le soir de la disparition."
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
     characterEmotion: 2
     myText: 'Vous confirmez sa venue ? '
@@ -37,23 +37,29 @@ MonoBehaviour:
   - character: {fileID: 11400000, guid: f57eb7197e619e64794a2b0922d6b4f6, type: 2}
     characterEmotion: 3
     myText: "Non pas vraiment. Enfin, \rpour une fois, elle \xE9tait accompagn\xE9e
-      d\u2019une fille du quartier. Am\xE9lie, elle est \xE9tudiante aussi.  \r\n"
+      d\u2019une fille du quartier. Am\xE9lie, elle est \xE9tudiante aussi.\n"
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
     characterEmotion: 3
-    myText: "Bien il semblerait qu\u2019il faille que je rende visite \xE0 cette
-      Am\xE9lie."
+    myText: Je vois...
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
     characterEmotion: 5
-    myText: 'Avez-vous son adresse ? '
+    myText: "Il faudrait que j'aille lui rendre visite \xE0 cette Am\xE9lie, vous
+      avez son adresse ?"
   - character: {fileID: 11400000, guid: f57eb7197e619e64794a2b0922d6b4f6, type: 2}
     characterEmotion: 1
-    myText: Oui, je vous la note de suite.
+    myText: "Oui, elle habite \xE0 deux pas d'ici. Je vous la note de suite."
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
     characterEmotion: 0
-    myText: "Merci pour votre collaboration. \xC7a me suffit pour le moment. Vous
-      serez inform\xE9 de l\u2019avancement des recherches."
+    myText: Merci beaucoup pour votre collaboration. Je vous recontacte si j'ai besoin
+      de vous.
   - character: {fileID: 11400000, guid: f57eb7197e619e64794a2b0922d6b4f6, type: 2}
     characterEmotion: 5
-    myText: "S\u2019il vous pla\xEEt, retrouvez la petite monsieur."
+    myText: "Aucun soucis. Et s\u2019il vous pla\xEEt... Retrouvez la petite monsieur."
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 5
+    myText: Je vais tout faire pour, je vous le promets.
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 5
+    myText: Au revoir.
   questionText: 
   optionsInfo: []

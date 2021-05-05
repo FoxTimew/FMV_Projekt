@@ -9,7 +9,7 @@ public class EventBehaviour : ScriptableObject
     {
         Debug.Log("Test Event Réussi");
         
-        //Destroy(References.instance.testGameObject);
+        Destroy(References.instance.testGameObject);
         
         //Une fois déclaré dans References :
         //References.instance. ...
