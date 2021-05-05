@@ -63,3 +63,4 @@ MonoBehaviour:
     myText: Au revoir.
   questionText: 
   optionsInfo: []
+  boolIndex: 0

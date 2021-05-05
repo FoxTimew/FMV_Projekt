@@ -23,4 +23,6 @@ using UnityEngine.Events;
         
     }
     public Options[] optionsInfo;
+
+    public int boolIndex = -1;
 }

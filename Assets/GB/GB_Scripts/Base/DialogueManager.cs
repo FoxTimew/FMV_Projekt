@@ -67,6 +67,9 @@ public class DialogueManager : MonoBehaviour
 
     private DialogueBase currentDialogue;
 
+    //Pour trouver quel bool actionner à la fin du dialogue
+    private int boolIndex;
+
     public void Start()
     {
         dialogueInfo = new Queue<DialogueBase.Info>();
@@ -256,6 +259,10 @@ public class DialogueManager : MonoBehaviour
     {
         //désactive boite de dialogue
         dialogueBox.SetActive(false);
+        if (boolIndex != -1)
+        {
+            GameObject.Find("Manager").GetComponent<Manager>().boolDialogue[boolIndex] = true;
+        }
         //on est plus dans un dialogue
         inDialogue = false;
 
@@ -266,7 +273,6 @@ public class DialogueManager : MonoBehaviour
     //active Options dialogue
     private void OptionsLogic()
     {
-        
         if (isDialogueOption == true)
         {
             dialogueOptionUI.SetActive(true);
@@ -288,7 +294,7 @@ public class DialogueManager : MonoBehaviour
             DialogueOptions dialogueOptions = db as DialogueOptions;
             optionsAmount = dialogueOptions.optionsInfo.Length;
             questionText.text = dialogueOptions.questionText;
-
+            boolIndex = dialogueOptions.boolIndex;
             //on désactive tous les boutons
             for (int i = 0; i < optionButtons.Length; i++)
             {
