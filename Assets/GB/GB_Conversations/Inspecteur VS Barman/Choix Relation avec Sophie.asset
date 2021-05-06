@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b75e1f00cd49ed42b21c074fd95a840, type: 3}
+  m_Name: Choix Relation avec Sophie
+  m_EditorClassIdentifier: 
+  characters:
+  - {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+  - {fileID: 11400000, guid: f57eb7197e619e64794a2b0922d6b4f6, type: 2}
+  dialogueInfo:
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 2
+    myText: Vous connaissez bien la victime ?
+  - character: {fileID: 11400000, guid: f57eb7197e619e64794a2b0922d6b4f6, type: 2}
+    characterEmotion: 3
+    myText: Bien, je ne sais pas. Elle vient ici souvent seule et se confie parfois.
+  - character: {fileID: 11400000, guid: f57eb7197e619e64794a2b0922d6b4f6, type: 2}
+    characterEmotion: 5
+    myText: "C\u2019est parfois dur d\u2019\xEAtre une jeune femme de nos jours.
+      Je ne la connais pas du tout en dehors."
+  questionText: Faites votre choix
+  optionsInfo:
+  - buttonName: Facture
+    nextDialogue: {fileID: 11400000, guid: 5bddad2c7d1b60c44b87aa2f5630d43f, type: 2}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  boolIndex: -1
