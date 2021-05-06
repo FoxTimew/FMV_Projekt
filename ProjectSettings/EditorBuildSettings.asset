@@ -59,4 +59,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/UD/UD_Scene/Appartement Sophie/Sophie.unity
     guid: c9e38ef235c398e4ebd68db6ef1715a4
+  - enabled: 1
+    path: Assets/UD/UD_Scene/WilhemInfiltration/WillemInfiltration_1.unity
+    guid: 7726a07b1fd927940b91a9bdbd18accf
+  - enabled: 1
+    path: Assets/UD/UD_Scene/WilhemInfiltration/WillemInfiltration_2.unity
+    guid: 895333c8022d2374da8887acc7db781b
+  - enabled: 1
+    path: Assets/UD/UD_Scene/WilhemInfiltration/WillemInfiltration_3.unity
+    guid: b1b2e9fc1ee543445a6b42615bf6b54c
+  - enabled: 1
+    path: Assets/UD/UD_Scene/DevPCWillem.unity
+    guid: 6c668b8b671adea4097c1c2b2bef8182
   m_configObjects: {}
