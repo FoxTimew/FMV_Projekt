@@ -315,8 +315,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 650131238}
-  - {fileID: 1434545013}
   - {fileID: 2084330167}
+  - {fileID: 1434545013}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -377,7 +377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d884201ff25f2894cbb0fd9aee881ca7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Sophie_Sortie
+  sceneToLoad: "Ext\xE9rieur_8"
   animToPlay: DisparitionAnim
 --- !u!114 &650131240
 MonoBehaviour:
@@ -714,7 +714,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1029771296773309142, guid: 3fe10e925f0d75f4780e0a0e22f38bda, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1029771296773309143, guid: 3fe10e925f0d75f4780e0a0e22f38bda, type: 3}
       propertyPath: m_Pivot.x
@@ -726,7 +726,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1029771296773309143, guid: 3fe10e925f0d75f4780e0a0e22f38bda, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1029771296773309143, guid: 3fe10e925f0d75f4780e0a0e22f38bda, type: 3}
       propertyPath: m_AnchorMax.x
@@ -994,7 +994,7 @@ RectTransform:
   m_Children:
   - {fileID: 1370064011}
   m_Father: {fileID: 573945003}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
