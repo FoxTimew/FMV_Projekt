@@ -9,10 +9,20 @@ public class MainMenuScript : MonoBehaviour
     public string startGame;
 
     [Tooltip("Options Scene name.")]
-    public string optionsMenu;
+    public GameObject optionsMenu;
 
     [Tooltip("Credits Scene name.")]
-    public string creditsMenu;
+    public GameObject creditsMenu;
+
+    public GameObject mainMenu;
+
+    private void Start()
+    {
+        optionsMenu.SetActive(false);
+        creditsMenu.SetActive(false);
+        mainMenu.SetActive(true);
+    }
+
 
     public void StartGame()
     {
@@ -21,12 +31,24 @@ public class MainMenuScript : MonoBehaviour
 
     public void OptionsMenu()
     {
-        SceneManager.LoadScene(optionsMenu);
+        optionsMenu.SetActive(true);
+        creditsMenu.SetActive(false);
+        mainMenu.SetActive(false);
+
     }
 
     public void CreditsMenu()
     {
-        SceneManager.LoadScene(creditsMenu);
+        optionsMenu.SetActive(false);
+        creditsMenu.SetActive(true);
+        mainMenu.SetActive(false);
+    }
+    
+    public void MainMenu()
+    {
+        optionsMenu.SetActive(false);
+        creditsMenu.SetActive(false);
+        mainMenu.SetActive(true);
     }
 
     public void ExitGame()
