@@ -525,6 +525,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: "Ext\xE9rieur_3"
   animToPlay: DisparitionAnim
+  fadeG: {fileID: 0}
 --- !u!114 &1038440647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -673,6 +674,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: "Ext\xE9rieur_2"
   animToPlay: DisparitionAnim
+  fadeG: {fileID: 0}
 --- !u!114 &1464316528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1053,6 +1055,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: A - Barman
   animToPlay: DisparitionAnim
+  fadeG: {fileID: 0}
 --- !u!222 &4953438372390239178
 CanvasRenderer:
   m_ObjectHideFlags: 0

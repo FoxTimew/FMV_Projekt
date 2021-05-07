@@ -378,7 +378,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &839091914
 RectTransform:
   m_ObjectHideFlags: 0
@@ -799,6 +799,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: "Ext\xE9rieur_1"
   animToPlay: DisparitionAnim
+  fadeG: {fileID: 0}
 --- !u!114 &1038440647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1026,6 +1027,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: "Ext\xE9rieur_4"
   animToPlay: DisparitionAnim
+  fadeG: {fileID: 0}
 --- !u!114 &1464316528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1300,6 +1302,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: D - Nicolas
   animToPlay: DisparitionAnim
+  fadeG: {fileID: 0}
 --- !u!222 &4953438372390239178
 CanvasRenderer:
   m_ObjectHideFlags: 0

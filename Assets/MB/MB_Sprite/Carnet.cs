@@ -21,6 +21,12 @@ public class Carnet : MonoBehaviour
 
 	private string[] cluesOfCharacter = new string[5];
 
+	[SerializeField]
+	private GameObject clueImage;
+
+	[SerializeField]
+	private AudioSource audio;
+
 	private void Start()
 	{
 		/*for (int i = 0; i < 10; i++)
@@ -53,6 +59,8 @@ public class Carnet : MonoBehaviour
 				cluesOfCharacter[4] = cluesOfCharacter[4] + "\n" + text;
 				break;
 		}
+		clueImage.SetActive(true);
+		audio.Play();
 	}
 
 	public void ClueUIUpdate(int index)

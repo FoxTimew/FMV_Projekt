@@ -620,6 +620,55 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: "Ext\xE9rieur_6"
   animToPlay: DisparitionAnim
+  fadeG: {fileID: 1084968423}
+--- !u!1 &777527275
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 777527277}
+  - component: {fileID: 777527276}
+  m_Layer: 0
+  m_Name: AddClue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &777527276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777527275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c67ad0ca8dda164eb9f031039c491ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clueText:
+  - "Ticket : Willem est all\xE9 r\xE9cup\xE9rer sa voiture au garage le Mercredi
+    5 Mai \xE0 17h00"
+  - "Carnet : Willem \xE9prouve une certaine fascination envers Sophie qui donne
+    la chair de poule."
+--- !u!4 &777527277
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777527275}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &780500769
 GameObject:
   m_ObjectHideFlags: 0
@@ -712,14 +761,14 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 916473737}
-  m_LocalRotation: {x: 0.03464929, y: -0.99939954, z: -0, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: -0.034646574, w: 0.99939966}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1078879721}
   m_Father: {fileID: 1288243162}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: -180, z: -3.971}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -3.971}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -98.9, y: 323.6}
@@ -768,7 +817,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 916473740}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 777527276}
+        m_TargetAssemblyTypeName: AddClueInfiltration, Assembly-CSharp
+        m_MethodName: Action
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &916473740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -886,6 +947,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1078879720}
   m_CullTransparentMesh: 1
+--- !u!1 &1084968423 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1029771296773309142, guid: 3fe10e925f0d75f4780e0a0e22f38bda, type: 3}
+  m_PrefabInstance: {fileID: 1423770024}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1288243158
 GameObject:
   m_ObjectHideFlags: 0
@@ -1044,6 +1110,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: DevPCWillem
   animToPlay: DisparitionAnim
+  fadeG: {fileID: 1084968423}
 --- !u!114 &1418600643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1405,7 +1472,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1712309375}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 777527276}
+        m_TargetAssemblyTypeName: AddClueInfiltration, Assembly-CSharp
+        m_MethodName: Action
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1712309375
 MonoBehaviour:
   m_ObjectHideFlags: 0

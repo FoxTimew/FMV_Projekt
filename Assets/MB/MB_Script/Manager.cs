@@ -20,7 +20,7 @@ public class Manager : MonoBehaviour
 	//-----TABLEAU PARTIE-------
 
 	//Sort automatiquement
-
+	private bool[] willemClueBool = new bool[3];
 	private void Awake()
 	{
 		DontDestroyOnLoad(this.gameObject);
@@ -37,6 +37,10 @@ public class Manager : MonoBehaviour
 					DialogueManager.instance.EnqueueDialogue(dialogue[0]);
 					//Amélie Zone Unlock
 				}
+				else 
+				{
+					DialogueManager.instance.EnqueueDialogue(dialogue[10]);
+				}
 				break;
 			case "Amélie":
 				if (boolDialogue[0] && !boolDialogue[1])
@@ -48,10 +52,14 @@ public class Manager : MonoBehaviour
 					// Willem zone unlock
 				}
 				else if (boolDialogue[0] && boolDialogue[1] && boolDialogue[2] && boolDialogue[3] && boolDialogue[4] && !boolDialogue[5])
-				{ 
+				{
 					//Lancer dialogue seconde partie
 					DialogueManager.instance.EnqueueDialogue(dialogue[5]);
 					//Mettre à jour le tableau
+				}
+				else
+				{ 
+					DialogueManager.instance.EnqueueDialogue(dialogue[10]);
 				}
 				break;
 			case "Willem":
@@ -64,10 +72,14 @@ public class Manager : MonoBehaviour
 					// Débloquer Nicolas
 				}
 				else if (boolDialogue[0] && boolDialogue[1] && boolDialogue[2] && boolDialogue[3] && boolDialogue[4] && !boolDialogue[6])
-				{ 
+				{
 					//Lancer dialogue deuxième partie
 					DialogueManager.instance.EnqueueDialogue(dialogue[6]);
 					// mettre à jour le block
+				}
+				else
+				{ 
+					DialogueManager.instance.EnqueueDialogue(dialogue[10]);
 				}
 				break;
 			case "Nicolas":
@@ -81,10 +93,14 @@ public class Manager : MonoBehaviour
 					// fin TP navigation
 				}
 				else if (boolDialogue[0] && boolDialogue[1] && boolDialogue[2] && boolDialogue[3] && boolDialogue[4] && !boolDialogue[7])
-				{ 
+				{
 					//Lancer dialogue deuxième partie
 					DialogueManager.instance.EnqueueDialogue(dialogue[7]);
 					//Mettre à jour le block
+				}
+				else
+				{ 
+					DialogueManager.instance.EnqueueDialogue(dialogue[10]);
 				}
 				break;
 			default:
@@ -102,5 +118,16 @@ public class Manager : MonoBehaviour
 				}
 				break;
 		}
+
+	}
+	public void ClueBool(int index)
+	{
+		willemClueBool[index] = true;
+		bool test = true;
+		for (int i = 0; i < willemClueBool.Length; i++)
+		{
+			if (!willemClueBool[i]) test = false;
+		}
+		if (test) boolDialogue[9] = true;
 	}
 }

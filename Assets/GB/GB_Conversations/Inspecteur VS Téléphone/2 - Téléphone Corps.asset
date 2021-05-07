@@ -34,8 +34,8 @@ MonoBehaviour:
     myText: "Oh non\u2026 Que disent les premiers rapports des m\xE9decins ?"
   - character: {fileID: 11400000, guid: 9762317399d9c984fbe88920fb63817d, type: 2}
     characterEmotion: 0
-    myText: "\xC9coutez, de ce que l'on sait, elle est morte vendredi soir, peu avant
-      minuit."
+    myText: "\xC9coutez, de ce que l'on sait, elle est morte vendredi soir, vers
+      23h30."
   - character: {fileID: 11400000, guid: 9762317399d9c984fbe88920fb63817d, type: 2}
     characterEmotion: 0
     myText: "On a retrouv\xE9 sur le corps des h\xE9matomes qui laissent penser \xE0
@@ -78,5 +78,36 @@ MonoBehaviour:
     characterEmotion: 0
     myText: Ce sera fait.
   questionText: 
-  optionsInfo: []
-  boolIndex: -1
+  optionsInfo:
+  - buttonName: "Continuer l'enqu\xEAte."
+    nextDialogue: {fileID: 0}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 6756094293534744328, guid: fd23b1b1c2c86a04eaa9ab64b8feff25, type: 3}
+          m_TargetAssemblyTypeName: SophieClue, Assembly-CSharp
+          m_MethodName: AddClue
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "Sophie est morte vers 23h30 le 04 Mai. Son corps a
+              \xE9t\xE9 d\xE9plac\xE9. Elle semble s\u2019\xEAtre battue. Un bracelet
+              a \xE9t\xE9 trouv\xE9 pr\xE8s du corps."
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1939368427593546712, guid: cdc24854452a0ba4d8538691be6dfece, type: 3}
+          m_TargetAssemblyTypeName: ChangeSceneEvent, Assembly-CSharp
+          m_MethodName: ChangeScene
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "Ext\xE9rieur_1"
+            m_BoolArgument: 0
+          m_CallState: 2
+  boolIndex: 4
