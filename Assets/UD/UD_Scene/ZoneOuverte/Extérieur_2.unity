@@ -365,7 +365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d884201ff25f2894cbb0fd9aee881ca7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: "Am\xE9lie"
+  sceneToLoad: "B - Am\xE9lie"
   animToPlay: DisparitionAnim
 --- !u!114 &728113645
 MonoBehaviour:

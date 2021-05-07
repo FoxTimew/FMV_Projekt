@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Manager : MonoBehaviour
 {
-	public bool[] boolDialogue = new bool[8];
+	public bool[] boolDialogue = new bool[9];
 	public DialogueBase[] dialogue;
 	//-----PREMIERE PARTIE-------
 	// 0 = Barman --> Vide après
@@ -16,6 +16,7 @@ public class Manager : MonoBehaviour
 	// 5 = Amélie vue -->
 	// 6 = Willem vue -->
 	// 7 = Nicolas vue -->
+	// 8 = Deuxième TELEPHONE -->
 	//-----TABLEAU PARTIE-------
 
 	//Sort automatiquement
@@ -42,6 +43,7 @@ public class Manager : MonoBehaviour
 				{
 					// Lancer dialogue
 					DialogueManager.instance.EnqueueDialogue(dialogue[1]);
+					GameObject.Find("Inventory_Canvas").GetComponent<Enable_UI>().EnableUI(0);
 					// Ajouter information dans le block
 					// Willem zone unlock
 				}
@@ -57,6 +59,7 @@ public class Manager : MonoBehaviour
 				{
 					// Lancer dialogue
 					DialogueManager.instance.EnqueueDialogue(dialogue[2]);
+					GameObject.Find("Inventory_Canvas").GetComponent<Enable_UI>().EnableUI(1);
 					// Ajouter information dans le block
 					// Débloquer Nicolas
 				}
@@ -72,6 +75,7 @@ public class Manager : MonoBehaviour
 				{
 					// Lancer dialogue
 					DialogueManager.instance.EnqueueDialogue(dialogue[3]);
+					GameObject.Find("Inventory_Canvas").GetComponent<Enable_UI>().EnableUI(2);
 					// Ajouter information dans le block
 					// Lancer scene dialogue téléphone
 					// fin TP navigation
@@ -84,7 +88,18 @@ public class Manager : MonoBehaviour
 				}
 				break;
 			default:
+				if (!boolDialogue[4])
+				{
 					DialogueManager.instance.EnqueueDialogue(dialogue[4]);
+				}
+				else if(!boolDialogue[10])
+				{
+					DialogueManager.instance.EnqueueDialogue(dialogue[8]);
+				}
+				else
+				{ 
+					DialogueManager.instance.EnqueueDialogue(dialogue[9]);
+				}
 				break;
 		}
 	}

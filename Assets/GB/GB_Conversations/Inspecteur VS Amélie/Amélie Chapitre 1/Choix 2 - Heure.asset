@@ -47,21 +47,21 @@ MonoBehaviour:
       parages, je risque d'avoir de nouveau besoin de vous."
   questionText: 
   optionsInfo:
-  - buttonName: Aller voir Willem
+  - buttonName: Sortir.
     nextDialogue: {fileID: 0}
     myEvent:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: 
-          m_Mode: 1
+        - m_Target: {fileID: 1939368427593546712, guid: cdc24854452a0ba4d8538691be6dfece, type: 3}
+          m_TargetAssemblyTypeName: ChangeSceneEvent, Assembly-CSharp
+          m_MethodName: ChangeScene
+          m_Mode: 5
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: 
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: 
+            m_StringArgument: "Ext\xE9rieur_2"
             m_BoolArgument: 0
           m_CallState: 2
-  boolIndex: -1
+  boolIndex: 1

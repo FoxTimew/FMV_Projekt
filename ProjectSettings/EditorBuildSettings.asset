@@ -71,4 +71,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/UD/UD_Scene/DevPCWillem.unity
     guid: 6c668b8b671adea4097c1c2b2bef8182
+  - enabled: 1
+    path: Assets/MB/MB_Scene/Conversation/A - Barman.unity
+    guid: 1e91231e593f4144f9b1591f9226f0a6
+  - enabled: 1
+    path: "Assets/MB/MB_Scene/Conversation/B - Am\xE9lie.unity"
+    guid: 36babeabc44b0f9409c32992a20653c8
+  - enabled: 1
+    path: Assets/MB/MB_Scene/Conversation/C - Willem.unity
+    guid: 0ff319026fc39824981f40bea0a1583e
+  - enabled: 1
+    path: Assets/MB/MB_Scene/Conversation/D - Nicolas.unity
+    guid: 4298555e1d61b804ebb80bddc4e570fb
+  - enabled: 1
+    path: "Assets/MB/MB_Scene/Conversation/E - T\xE9l\xE9phone.unity"
+    guid: 89a0511c51c3f9146a3a7391d236e1b2
   m_configObjects: {}

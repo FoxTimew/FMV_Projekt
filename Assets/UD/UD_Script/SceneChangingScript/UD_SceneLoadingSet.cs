@@ -8,6 +8,7 @@ public class UD_SceneLoadingSet : MonoBehaviour
     public string animToPlay;
 
     GameObject fade;
+    public GameObject fadeG;
 
     UD_SceneChangingScript SGC;
     UD_AnimTriggerScript ATS;
@@ -15,6 +16,7 @@ public class UD_SceneLoadingSet : MonoBehaviour
     void Start()
     {
         fade = GameObject.FindGameObjectWithTag("Fade");
+        if (fade == null) fade = fadeG;
         SGC = fade.GetComponent<UD_SceneChangingScript>();
         ATS = fade.GetComponent<UD_AnimTriggerScript>();
     }

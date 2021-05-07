@@ -1051,7 +1051,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d884201ff25f2894cbb0fd9aee881ca7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Bar
+  sceneToLoad: A - Barman
   animToPlay: DisparitionAnim
 --- !u!222 &4953438372390239178
 CanvasRenderer:
