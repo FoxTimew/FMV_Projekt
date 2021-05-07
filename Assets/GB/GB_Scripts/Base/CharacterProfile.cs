@@ -35,6 +35,7 @@ public class CharacterProfile : ScriptableObject
         public Sprite arrogant;
         public Sprite angry;
         public Sprite hello;
+        public Sprite dab;
     }
     public EmotionPortraits emotionPortraits;
 
@@ -79,6 +80,10 @@ public class CharacterProfile : ScriptableObject
             case EmotionType.Hello:
                 myPortrait = emotionPortraits.hello;
                 break;
+            case EmotionType.Dab:
+                myPortrait = emotionPortraits.dab;
+                break;
+
 
         }
 
@@ -98,5 +103,6 @@ public enum EmotionType
     Shocked,
     Arrogant,
     Angry,
-    Hello
+    Hello,
+    Dab
 }

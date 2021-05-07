@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b75e1f00cd49ed42b21c074fd95a840, type: 3}
+  m_Name: Epilogue
+  m_EditorClassIdentifier: 
+  characters:
+  - {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+  - {fileID: 11400000, guid: 9762317399d9c984fbe88920fb63817d, type: 2}
+  dialogueInfo:
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 0
+    myText: "Nicolas fut d\xE9f\xE9r\xE9 devant le tribunal de Lille pour meurtre."
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 6
+    myText: "Il sera condamn\xE9 \xE0 22 ann\xE9es de r\xE9clusion criminelle qu\u2019il
+      ira passer \xE0 la maison d\u2019arr\xEAt de Sequedin."
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 5
+    myText: "Willem et Am\xE9lie firent leur deuil, et continu\xE8rent dans leur
+      voie respective."
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 1
+    myText: "Quant \xE0 l'Inspecteur, il prit des vacances bien m\xE9rit\xE9es !"
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 10
+    myText: THE END
+  questionText: 
+  optionsInfo: []
+  boolIndex: -1

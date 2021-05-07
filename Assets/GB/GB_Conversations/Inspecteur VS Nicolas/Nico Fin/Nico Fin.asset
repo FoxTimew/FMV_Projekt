@@ -20,35 +20,87 @@ MonoBehaviour:
     characterEmotion: 0
     myText: "Oh, vous \xEAtes de retour ?"
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 6
     myText: "On peut dire \xE7a."
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: "Qu\u2019est-ce-que je peux faire pour vous ?"
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: "Vous pouvez me confirmer de nouveau ce que vous faisiez durant la soir\xE9e
       de mardi vers 23 heures ?"
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
-    characterEmotion: 0
+    characterEmotion: 4
     myText: "Euh\u2026 J\u2019\xE9tais occup\xE9 \xE0 la boulangerie, pourquoi ?
       Je vous l\u2019ai d\xE9j\xE0 dit."
-  - character: {fileID: 0}
-    characterEmotion: 0
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 7
     myText: "Vous \xEAtes s\xFBr que vous n\u2019avez pas utilis\xE9 votre voiture
       plus t\xF4t cette nuit-l\xE0 ?"
-  - character: {fileID: 0}
-    characterEmotion: 0
+  - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
+    characterEmotion: 9
     myText: "Euh\u2026 Non. Pourquoi cela ?"
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 8
+    myText: "J'ai rassembl\xE9 toutes les preuves, Nicolas. Je sais que vous mentez."
+  - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
+    characterEmotion: 4
+    myText: "Je\u2026 Je vous demande pardon ?"
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 2
+    myText: "Je vais vous expliquer ce qu'il s'est pass\xE9 vendredi soir. Vous m'arr\xEAtez
+      si je me trompe."
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 3
+    myText: "Sophie s'est disput\xE9 avec Am\xE9lie, puis est rentr\xE9 chez elle.
+      Elle vous a contact\xE9 pour se changer les id\xE9es... "
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 6
+    myText: "Vous \xEAtes venu la chercher en voiture."
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 5
+    myText: "Elle voulait se confier, mais vous avez continu\xE9 \xE0 \xEAtre toxique,
+      comme \xE0 l'\xE9poque votre relation."
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 8
+    myText: "\xC0 cause de votre comportement, la discussion a d\xE9g\xE9n\xE9r\xE9
+      et vous avez fini par la tuer."
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 6
+    myText: "Vous \xEAtes alors parti vous d\xE9barrasser du corps dans la for\xEAt
+      au bord de l'Escaut."
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 2
+    myText: "Seulement, un t\xE9moin a vu une voiture rouge le soir du meutre. Et
+      j'ai la preuve que ce n'est pas celle de Willem."
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 8
+    myText: "Et bien qu'il soit tr\xE8s \xE9trange, j'ai \xE9galement la preuve qu'il
+      \xE9tait chez lui pendant toute la soir\xE9e de vendredi."
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 6
+    myText: "Et un autre t\xE9moin a \xE9cart\xE9 la piste d'Am\xE9lie, en confirmant
+      qu'elle et Sophie s'\xE9taient bien s\xE9par\xE9es apr\xE8s la dispute. "
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 2
+    myText: "Donc m\xEAme si elle avait un mobile cr\xE9dible, elle est innoncente."
+  - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
+    characterEmotion: 8
+    myText: Je...
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 5
+    myText: "Vous savez ce que j\u2019ai avec moi ? C\u2019est un mandat d\u2019arr\xEAt.
+      Rien que pour vous."
+  - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
+    characterEmotion: 2
+    myText: "C\u2019est faux\u2026 Il doit y avoir une erreur..."
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 8
+    myText: "Nicolas, je vous arr\xEAte pour le meutre de Sophie Marezzi."
+  - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
     characterEmotion: 0
-    myText: 
-  - character: {fileID: 0}
-    characterEmotion: 0
-    myText: 
-  - character: {fileID: 0}
-    characterEmotion: 0
-    myText: 
+    myText: "Vous avez le droit de garder le silence. Tout ce que vous direz pourra
+      \xEAtre retenu contre vous."
   questionText: 
   optionsInfo: []
   boolIndex: -1
