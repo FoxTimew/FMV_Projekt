@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/AK/AK_MenuScenes/AK_MainMenu.unity
+    guid: 0a04e53f7f8b19c42b91715ee7853a88
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -86,4 +89,13 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/MB/MB_Scene/Conversation/E - T\xE9l\xE9phone.unity"
     guid: 89a0511c51c3f9146a3a7391d236e1b2
+  - enabled: 1
+    path: Assets/MB/MB_Scene/Conversation/Epilogue.unity
+    guid: e97d6d125e86212419fa7018d417c557
+  - enabled: 1
+    path: Assets/AK/AK_MenuScenes/AK_Options.unity
+    guid: c20f7da0ef4e6364c87c86b26b75561c
+  - enabled: 1
+    path: Assets/AK/AK_MenuScenes/AK_Credits.unity
+    guid: c4864a1c5ec5c074fbbd5fd585f64116
   m_configObjects: {}

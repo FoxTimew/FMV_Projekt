@@ -40,6 +40,19 @@ MonoBehaviour:
     myEvent:
       m_PersistentCalls:
         m_Calls:
+        - m_Target: {fileID: 4181607016863534674, guid: 8189614b1952c0d46888bb02ef7aee24, type: 3}
+          m_TargetAssemblyTypeName: GeneralClue, Assembly-CSharp
+          m_MethodName: AddClue
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "Une voiture rouge a \xE9t\xE9 aper\xE7ue vendredi
+              soir sur les lieux o\xF9 a \xE9t\xE9 retrouv\xE9 le corps."
+            m_BoolArgument: 0
+          m_CallState: 2
         - m_Target: {fileID: 1939368427593546712, guid: cdc24854452a0ba4d8538691be6dfece, type: 3}
           m_TargetAssemblyTypeName: ChangeSceneEvent, Assembly-CSharp
           m_MethodName: ChangeScene
@@ -49,7 +62,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: "Ext\xE9rieur_2"
+            m_StringArgument: "Ext\xE9rieur_1"
             m_BoolArgument: 0
           m_CallState: 2
   boolIndex: 10

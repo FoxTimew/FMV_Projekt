@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -259,9 +260,14 @@ public class DialogueManager : MonoBehaviour
     {
         //désactive boite de dialogue
         dialogueBox.SetActive(false);
-        if (boolIndex != -1)
+        if (boolIndex != -1 && boolIndex != -2)
         {
             GameObject.Find("Manager").GetComponent<Manager>().boolDialogue[boolIndex] = true;
+        }
+        else if (boolIndex == -2)
+        {
+            GameObject.Find("Manager").GetComponent<Manager>().epilogue = true;
+            SceneManager.LoadScene("Epilogue");
         }
         //on est plus dans un dialogue
         inDialogue = false;

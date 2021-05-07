@@ -25,7 +25,7 @@ public class Carnet : MonoBehaviour
 	private GameObject clueImage;
 
 	[SerializeField]
-	private AudioSource audio;
+	private AudioSource audioS;
 
 	private void Start()
 	{
@@ -60,7 +60,7 @@ public class Carnet : MonoBehaviour
 				break;
 		}
 		clueImage.SetActive(true);
-		audio.Play();
+		audioS.Play();
 	}
 
 	public void ClueUIUpdate(int index)

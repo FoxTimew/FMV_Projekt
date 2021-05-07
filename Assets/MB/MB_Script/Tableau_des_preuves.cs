@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class Tableau_des_preuves : MonoBehaviour
 {
@@ -10,6 +12,12 @@ public class Tableau_des_preuves : MonoBehaviour
 
 	[SerializeField]
 	private int[] ddGoodValue;
+
+	[SerializeField]
+	private Text text;
+
+	[SerializeField]
+	GameObject fond;
 
 	public void Validate()
 	{
@@ -25,10 +33,21 @@ public class Tableau_des_preuves : MonoBehaviour
 		if (good)
 		{
 			//Lancer la dernière scène
+			GameObject.Find("Manager").GetComponent<Manager>().end = true;
+			SceneManager.LoadScene("D - Nicolas");
+			fond.SetActive(false);
 		}
 		else
-		{ 
+		{
 			//Lancer dialogue...
+			text.gameObject.SetActive(true);
+			StartCoroutine(TextDelay());
 		}
+	}
+
+	IEnumerator TextDelay()
+	{
+		yield return new WaitForSeconds(3);
+		text.gameObject.SetActive(false);
 	}
 }

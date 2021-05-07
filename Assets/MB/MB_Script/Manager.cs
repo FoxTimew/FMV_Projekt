@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class Manager : MonoBehaviour
 {
 	public bool[] boolDialogue = new bool[9];
+	public bool end, epilogue, start;
 	public DialogueBase[] dialogue;
 	//-----PREMIERE PARTIE-------
 	// 0 = Barman --> Vide après
@@ -28,6 +28,21 @@ public class Manager : MonoBehaviour
 
 	public void LoadDialogue(string nomDeLaScene)
 	{
+		if (!start)
+		{
+			start = true;
+			DialogueManager.instance.EnqueueDialogue(dialogue[16]);
+		}
+		if (epilogue)
+		{
+			DialogueManager.instance.EnqueueDialogue(dialogue[15]);
+			return;
+		}
+		if (end)
+		{
+			DialogueManager.instance.EnqueueDialogue(dialogue[14]);
+			return;
+		}
 		switch (nomDeLaScene)
 		{
 			case "Barman":
@@ -59,7 +74,7 @@ public class Manager : MonoBehaviour
 				}
 				else
 				{ 
-					DialogueManager.instance.EnqueueDialogue(dialogue[10]);
+					DialogueManager.instance.EnqueueDialogue(dialogue[11]);
 				}
 				break;
 			case "Willem":
@@ -79,7 +94,7 @@ public class Manager : MonoBehaviour
 				}
 				else
 				{ 
-					DialogueManager.instance.EnqueueDialogue(dialogue[10]);
+					DialogueManager.instance.EnqueueDialogue(dialogue[12]);
 				}
 				break;
 			case "Nicolas":
@@ -100,7 +115,7 @@ public class Manager : MonoBehaviour
 				}
 				else
 				{ 
-					DialogueManager.instance.EnqueueDialogue(dialogue[10]);
+					DialogueManager.instance.EnqueueDialogue(dialogue[13]);
 				}
 				break;
 			default:
