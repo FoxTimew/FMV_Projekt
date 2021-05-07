@@ -5,11 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuScript : MonoBehaviour
 {
-    [Tooltip("Start Game Scene.")]
+    [Tooltip("Start Game Scene name.")]
     public string startGame;
 
-    [Tooltip("Options Scene.")]
+    [Tooltip("Options Scene name.")]
     public string optionsMenu;
+
+    [Tooltip("Credits Scene name.")]
+    public string creditsMenu;
 
     public void StartGame()
     {
@@ -19,6 +22,11 @@ public class MainMenuScript : MonoBehaviour
     public void OptionsMenu()
     {
         SceneManager.LoadScene(optionsMenu);
+    }
+
+    public void CreditsMenu()
+    {
+        SceneManager.LoadScene(creditsMenu);
     }
 
     public void ExitGame()
