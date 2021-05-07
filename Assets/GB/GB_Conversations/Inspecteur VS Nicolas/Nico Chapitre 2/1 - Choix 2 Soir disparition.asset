@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b75e1f00cd49ed42b21c074fd95a840, type: 3}
+  m_Name: 1 - Choix 2 Soir disparition
+  m_EditorClassIdentifier: 
+  characters:
+  - {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+  - {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
+  dialogueInfo:
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 0
+    myText: Que faisiez-vous vendredi soir entre 23h et minuit ?
+  - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
+    characterEmotion: 0
+    myText: "J\u2019\xE9tais encore \xE0 la boulangerie."
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 0
+    myText: "\xC0 une heure aussi tardive ?"
+  - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
+    characterEmotion: 0
+    myText: "Je faisais des pr\xE9paratifs pour le lendemain."
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 0
+    myText: "Vous \xE9tiez seul dans la boulangerie ?"
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 0
+    myText: 'Oui '
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 0
+    myText: "Et vous avez quitt\xE9 la boulangerie vers quelle heure ?"
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 0
+    myText: "Il devait \xEAtre trois heures du matin."
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 0
+    myText: "Et vous \xEAtes rentr\xE9 directement chez vous ?"
+  - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
+    characterEmotion: 0
+    myText: "Oui, je me suis endormi instantan\xE9ment."
+  questionText: 
+  optionsInfo:
+  - buttonName: Continuer
+    nextDialogue: {fileID: 11400000, guid: c90394c35ba913849960eadd27d76d90, type: 2}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  boolIndex: -1

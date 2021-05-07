@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b75e1f00cd49ed42b21c074fd95a840, type: 3}
+  m_Name: 2 - Choix 1 Nicolas
+  m_EditorClassIdentifier: 
+  characters:
+  - {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+  - {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
+  dialogueInfo:
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 0
+    myText: "J'ai entendu parler de votre temp\xE9rament possessif avec Sophie. Qu'en
+      est-il vraiment ?"
+  - character: {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
+    characterEmotion: 0
+    myText: "C'est n'importe quoi ! Qui vous a racont\xE9 \xE7a ? Nicolas ? Am\xE9lie
+      ?"
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 0
+    myText: Peu importe. Qu'en est-il ?
+  - character: {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
+    characterEmotion: 0
+    myText: "Ils disent n'importe quoi ! Ce sont tous des jaloux de toute fa\xE7on..."
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 0
+    myText: "Que ressentiez-vous r\xE9ellement pour Sophie ?"
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 0
+    myText: "J'aimais Sophie comme ma soeur, et je voulais simplement l'emp\xEAcher
+      de voir des personnes toxiques."
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 0
+    myText: "Il n'y a jamais eu d'ambigu\xEFt\xE9 entre vous ?"
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 0
+    myText: Pas vraiment..
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 0
+    myText: "C'est-\xE0-dire ?"
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 0
+    myText: "Vous savez, je ne suis pas vraiment int\xE9ress\xE9 par les filles de
+      mani\xE8re g\xE9n\xE9rale..."
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 0
+    myText: "Je vois. Je ne vois aucun mal \xE0 cela."
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 0
+    myText: Si seulement tout le monde pensait comme vous...
+  questionText: 
+  optionsInfo:
+  - buttonName: Voiture
+    nextDialogue: {fileID: 11400000, guid: 9d1fd2dda3a554244910014aea9987b6, type: 2}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  boolIndex: -1

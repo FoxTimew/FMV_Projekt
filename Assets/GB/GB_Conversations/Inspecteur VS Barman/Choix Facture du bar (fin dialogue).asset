@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b75e1f00cd49ed42b21c074fd95a840, type: 3}
+  m_Name: Choix Facture du bar (fin dialogue)
+  m_EditorClassIdentifier: 
+  characters:
+  - {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+  - {fileID: 11400000, guid: f57eb7197e619e64794a2b0922d6b4f6, type: 2}
+  dialogueInfo:
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 0
+    myText: "J\u2019ai trouv\xE9 une facture de votre \xE9tablissement chez Sophie.
+      Celle-ci date de vendredi soir, soit le soir de la disparition."
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 2
+    myText: 'Vous confirmez sa venue ? '
+  - character: {fileID: 11400000, guid: f57eb7197e619e64794a2b0922d6b4f6, type: 2}
+    characterEmotion: 0
+    myText: "Effectivement elle est bien venue au bar et y a pass\xE9 la soir\xE9e. "
+  - character: {fileID: 11400000, guid: f57eb7197e619e64794a2b0922d6b4f6, type: 2}
+    characterEmotion: 5
+    myText: "Je ne pouvais pas me douter qu\u2019elle dispara\xEEtrait juste apr\xE8s
+      \xE7a. "
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 4
+    myText: "Vous n\u2019avez rien remarqu\xE9 d\u2019\xE9trange ou d\u2019inhabituel
+      lors de cette venue ?   "
+  - character: {fileID: 11400000, guid: f57eb7197e619e64794a2b0922d6b4f6, type: 2}
+    characterEmotion: 3
+    myText: "Non pas vraiment. Enfin, \rpour une fois, elle \xE9tait accompagn\xE9e
+      d\u2019une fille du quartier. Am\xE9lie, elle est \xE9tudiante aussi.\n"
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 3
+    myText: Je vois...
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 5
+    myText: "Il faudrait que j'aille lui rendre visite \xE0 cette Am\xE9lie, vous
+      avez son adresse ?"
+  - character: {fileID: 11400000, guid: f57eb7197e619e64794a2b0922d6b4f6, type: 2}
+    characterEmotion: 1
+    myText: "Oui, elle habite \xE0 deux pas d'ici. Je vous la note de suite."
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 0
+    myText: Merci beaucoup pour votre collaboration. Je vous recontacte si j'ai besoin
+      de vous.
+  - character: {fileID: 11400000, guid: f57eb7197e619e64794a2b0922d6b4f6, type: 2}
+    characterEmotion: 5
+    myText: "Aucun soucis. Et s\u2019il vous pla\xEEt... Retrouvez la petite monsieur."
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 5
+    myText: Je vais tout faire pour, je vous le promets.
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 5
+    myText: Au revoir.
+  questionText: 
+  optionsInfo: []
+  boolIndex: 0

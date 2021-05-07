@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b75e1f00cd49ed42b21c074fd95a840, type: 3}
+  m_Name: 2 - Choix 1 Rupture
+  m_EditorClassIdentifier: 
+  characters:
+  - {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+  - {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
+  dialogueInfo:
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 0
+    myText: Pour quelle raison Sophie et vous avez rompus ?
+  - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
+    characterEmotion: 0
+    myText: "C'est une question tr\xE8s personnelle..."
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 0
+    myText: "Certaines pr\xE9tendent que c'\xE9tait une relation toxique. J'ai besoin
+      de votre version."
+  - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
+    characterEmotion: 0
+    myText: "N'\xE9coutez pas les ragots..."
+  - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
+    characterEmotion: 0
+    myText: "Tout ce que je peux vous dire, c'est que c'\xE9tait une histoire qui
+      n'a pas march\xE9."
+  - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
+    characterEmotion: 0
+    myText: "Mais cela ne nous a pas emp\xEAch\xE9 de rester amis."
+  questionText: 
+  optionsInfo:
+  - buttonName: Voiture
+    nextDialogue: {fileID: 11400000, guid: 1bc84c43b8fe54743b2b925913b5ee45, type: 2}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  boolIndex: -1
