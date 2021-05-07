@@ -17,11 +17,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
   dialogueInfo:
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 3
     myText: "\xCAtes-vous s\xFBre que votre m\xE9moire ne vous fait pas d\xE9faut
       ?"
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 4
     myText: 'Pour qui est-ce que vous me prenez ?! '
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
     characterEmotion: 0

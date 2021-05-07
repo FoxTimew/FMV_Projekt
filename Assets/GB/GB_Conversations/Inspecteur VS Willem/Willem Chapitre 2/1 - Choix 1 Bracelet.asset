@@ -16,18 +16,18 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
   - {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
   dialogueInfo:
-  - character: {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
     characterEmotion: 0
     myText: "On a retrouv\xE9 un bracelet qui semble appartenir \xE0 Sophie pr\xE8s
       du corps."
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: "\xC7a vous dit quelque chose ?"
   - character: {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
-    characterEmotion: 0
+    characterEmotion: 6
     myText: "Oui, il me semble que c'est un cadeau d'Am\xE9lie. Pourquoi ? "
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 6
     myText: Pour rien.
   questionText: Faites votre choix
   optionsInfo:

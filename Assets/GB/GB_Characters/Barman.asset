@@ -20,7 +20,8 @@ MonoBehaviour:
     curious: {fileID: 21300000, guid: 4c8a848b7d590de4bb85ca67862deebd, type: 3}
     thoughtful: {fileID: 21300000, guid: 7cedaf2906f7ef34c96f952b695e1e98, type: 3}
     offended: {fileID: 21300000, guid: cbf38df1d0737fe4bb8f179ade8f260f, type: 3}
-    worried: {fileID: 21300000, guid: 4c8a848b7d590de4bb85ca67862deebd, type: 3}
+    worried: {fileID: 21300000, guid: 7cedaf2906f7ef34c96f952b695e1e98, type: 3}
     shocked: {fileID: 21300000, guid: 40389398df153674daa20f8ecb3a55b1, type: 3}
     arrogant: {fileID: 21300000, guid: dfd50d24aeb06584091cb93d646a194f, type: 3}
     angry: {fileID: 21300000, guid: 3c9d7b9257db0bf4899686574063c1a7, type: 3}
+    hello: {fileID: 21300000, guid: ccd67a3edc6382a4c81b5d82d02f683b, type: 3}

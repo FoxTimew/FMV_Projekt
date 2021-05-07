@@ -17,16 +17,16 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
   dialogueInfo:
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: "Vous l\u2019avez vue rentrer jusqu'\xE0 chez elle ?"
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: "Je\u2026 Non\u2026 Que je suis b\xEAte ! Mon dieu, c\u2019est ma faute\u2026"
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 8
     myText: "J\u2019aurais d\xFB attendre qu\u2019elle soit rentr\xE9e avant de partir\u2026"
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: "Calmez-vous, vous n'y \xEAtes pour rien."
   questionText: Faites votre choix
   optionsInfo:

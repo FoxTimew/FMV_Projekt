@@ -17,44 +17,44 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
   dialogueInfo:
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: "J'ai entendu parler de votre temp\xE9rament possessif avec Sophie. Qu'en
       est-il vraiment ?"
   - character: {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
-    characterEmotion: 0
+    characterEmotion: 4
     myText: "C'est n'importe quoi ! Qui vous a racont\xE9 \xE7a ? Nicolas ? Am\xE9lie
       ?"
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
     characterEmotion: 0
     myText: Peu importe. Qu'en est-il ?
   - character: {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
-    characterEmotion: 0
+    characterEmotion: 8
     myText: "Ils disent n'importe quoi ! Ce sont tous des jaloux de toute fa\xE7on..."
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: "Que ressentiez-vous r\xE9ellement pour Sophie ?"
-  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+  - character: {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
+    characterEmotion: 3
     myText: "J'aimais Sophie comme ma soeur, et je voulais simplement l'emp\xEAcher
       de voir des personnes toxiques."
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 6
     myText: "Il n'y a jamais eu d'ambigu\xEFt\xE9 entre vous ?"
-  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+  - character: {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
+    characterEmotion: 9
     myText: Pas vraiment..
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: "C'est-\xE0-dire ?"
-  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+  - character: {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
+    characterEmotion: 3
     myText: "Vous savez, je ne suis pas vraiment int\xE9ress\xE9 par les filles de
       mani\xE8re g\xE9n\xE9rale..."
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
     characterEmotion: 0
-    myText: "Je vois. Je ne vois aucun mal \xE0 cela."
-  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    myText: "Je comprends. Je ne vois aucun mal \xE0 cela."
+  - character: {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
+    characterEmotion: 4
     myText: Si seulement tout le monde pensait comme vous...
   questionText: 
   optionsInfo:

@@ -17,19 +17,19 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f57eb7197e619e64794a2b0922d6b4f6, type: 2}
   dialogueInfo:
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 2
+    characterEmotion: 0
     myText: Vous connaissez bien la victime ?
   - character: {fileID: 11400000, guid: f57eb7197e619e64794a2b0922d6b4f6, type: 2}
     characterEmotion: 3
     myText: Bien, je ne sais pas. Elle vient ici souvent seule et se confie parfois.
   - character: {fileID: 11400000, guid: f57eb7197e619e64794a2b0922d6b4f6, type: 2}
-    characterEmotion: 5
+    characterEmotion: 2
     myText: "C\u2019est parfois dur d\u2019\xEAtre une jeune femme de nos jours.
       Je ne la connais pas du tout en dehors."
   questionText: Faites votre choix
   optionsInfo:
   - buttonName: Facture
-    nextDialogue: {fileID: 11400000, guid: 5bddad2c7d1b60c44b87aa2f5630d43f, type: 2}
+    nextDialogue: {fileID: 11400000, guid: 83a627b6f5039164d975308154cbe0a6, type: 2}
     myEvent:
       m_PersistentCalls:
         m_Calls: []

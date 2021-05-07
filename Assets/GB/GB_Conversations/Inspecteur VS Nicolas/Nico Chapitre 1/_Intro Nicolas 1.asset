@@ -16,36 +16,36 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
   - {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
   dialogueInfo:
-  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+  - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
     characterEmotion: 0
     myText: Bonjour Monsieur, qu'est-ce que vous prenez ?
-  - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
-    characterEmotion: 1
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 9
     myText: "Bonjour, j'enqu\xEAte sur la disparition d'une jeune femme."
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: 'Sophie, il me semble que vous la connaissez. '
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: "Oui je la connais plut\xF4t bien. J\u2019ignorais qu\u2019elle avait
       disparu..."
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
-    characterEmotion: 0
+    characterEmotion: 7
     myText: "\xC7a ne lui ressemble pas. Allez-y, je vous \xE9coute."
   questionText: Faites votre choix
   optionsInfo:
   - buttonName: Relation avec Sophie
-    nextDialogue: {fileID: 11400000, guid: d0b9874d4726b654e8cb48c5cd7a81f4, type: 2}
+    nextDialogue: {fileID: 11400000, guid: 7cdb47a8ed976ef4ebca1ae273fd5f38, type: 2}
     myEvent:
       m_PersistentCalls:
         m_Calls: []
   - buttonName: "Vue pour la derni\xE8re fois"
-    nextDialogue: {fileID: 11400000, guid: bea62969fa5635d4da107f8d127d629e, type: 2}
+    nextDialogue: {fileID: 11400000, guid: 8761604f2a8fbe6439923f0e25e729b3, type: 2}
     myEvent:
       m_PersistentCalls:
         m_Calls: []
   - buttonName: Willem
-    nextDialogue: {fileID: 11400000, guid: 7882e7a2e696f27419ce0ad5d45ef0f2, type: 2}
+    nextDialogue: {fileID: 11400000, guid: dfaebde67805b5d43bec1667247449fb, type: 2}
     myEvent:
       m_PersistentCalls:
         m_Calls: []

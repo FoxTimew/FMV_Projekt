@@ -17,25 +17,25 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
   dialogueInfo:
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: "La voiture rouge gar\xE9e devant, c'est la v\xF4tre ?"
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
     characterEmotion: 0
     myText: Oui c'est bien la mienne !
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: "Vous en \xEAtes vous servi vendredi ?"
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: Oui, comme tous les jours pour aller au travail.
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: "Puis vous l'avez utilis\xE9 pour rentrer chez vous ?"
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
     characterEmotion: 0
     myText: Exactement.
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 3
     myText: Je vois.
   questionText: 
   optionsInfo:

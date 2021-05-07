@@ -17,10 +17,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
   dialogueInfo:
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: Quelle est votre relation avec Sophie ?
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 8
     myText: "J\u2019ai rencontr\xE9 Sophie il y a \xE0 peine quelques mois, mais
       nous avons beaucoup \xE9chang\xE9 et sommes devenues vite proches."
   questionText: 

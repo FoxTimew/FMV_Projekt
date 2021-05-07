@@ -17,13 +17,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
   dialogueInfo:
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: "Je suis d\xE9sol\xE9. Nous venons de la retrouver dans la for\xEAt."
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: Selon les premiers rapports, elle serait morte vendredi soir, vers 23h30.
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 7
     myText: "C\u2019est impossible ! Je l\u2019ai raccompagn\xE9e chez elle !"
   questionText: Faites votre choix
   optionsInfo:

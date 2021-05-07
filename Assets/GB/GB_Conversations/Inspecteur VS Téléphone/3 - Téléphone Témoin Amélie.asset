@@ -16,7 +16,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
   - {fileID: 11400000, guid: 9762317399d9c984fbe88920fb63817d, type: 2}
   dialogueInfo:
-  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+  - character: {fileID: 11400000, guid: 4a7130741415ba24581eddee7f397299, type: 2}
     characterEmotion: 0
     myText: Oui, commissaire ?
   - character: {fileID: 11400000, guid: 9762317399d9c984fbe88920fb63817d, type: 2}
@@ -28,14 +28,14 @@ MonoBehaviour:
     characterEmotion: 0
     myText: "Elles faisaient route ensemble en direction de l\u2019appartement de
       Sophie, quand elles se seraient disput\xE9es puis s\xE9par\xE9es."
-  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+  - character: {fileID: 11400000, guid: 4a7130741415ba24581eddee7f397299, type: 2}
+    characterEmotion: 1
     myText: "Et apr\xE8s ?"
   - character: {fileID: 11400000, guid: 9762317399d9c984fbe88920fb63817d, type: 2}
     characterEmotion: 0
     myText: "Il semblerait que l\u2019autre jeune fille se soit arr\xEAt\xE9e un
       instant pour s\u2019allumer une cigarette."
-  - character: {fileID: 11400000, guid: 9762317399d9c984fbe88920fb63817d, type: 2}
+  - character: {fileID: 11400000, guid: 4a7130741415ba24581eddee7f397299, type: 2}
     characterEmotion: 0
     myText: "Tr\xE8s bien, je note \xE7a. Merci pour cette information."
   questionText: 

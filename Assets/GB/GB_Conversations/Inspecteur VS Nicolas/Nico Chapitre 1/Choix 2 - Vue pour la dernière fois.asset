@@ -17,22 +17,22 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
   dialogueInfo:
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 6
     myText: "Quand avez-vous vu Sophie pour la derni\xE8re fois ?"
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
     characterEmotion: 0
     myText: "Elle est venue me voir dans la semaine \xE0 la fermeture de la boulangerie."
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: "Quelle jour c'\xE9tait ?"
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
-    characterEmotion: 0
+    characterEmotion: 3
     myText: "Mercredi si je me rappelle bien. Elle voulait discuter. On a fait le
       chemin jusqu'\xE0 chez elle ensemble."
   questionText: 
   optionsInfo:
   - buttonName: Willem
-    nextDialogue: {fileID: 11400000, guid: 7882e7a2e696f27419ce0ad5d45ef0f2, type: 2}
+    nextDialogue: {fileID: 11400000, guid: dfaebde67805b5d43bec1667247449fb, type: 2}
     myEvent:
       m_PersistentCalls:
         m_Calls: []

@@ -16,11 +16,12 @@ MonoBehaviour:
   myVoice: {fileID: 8300000, guid: f9880fbb8db7f03418b9f659f9d384da, type: 3}
   emotionPortraits:
     standard: {fileID: 21300000, guid: ab7c9ddfbb1bd5e4db2924f2dc97cb5a, type: 3}
-    happy: {fileID: 21300000, guid: de7fad364ff4b794b9c35ee4d054ad80, type: 3}
-    curious: {fileID: 21300000, guid: 30fa686c49734e04298d6291d8a21ffa, type: 3}
+    happy: {fileID: 21300000, guid: 3890be7bb690be14eb5fe6d4bc347463, type: 3}
+    curious: {fileID: 21300000, guid: 33ade52c16d35a4439be71556e04f6c8, type: 3}
     thoughtful: {fileID: 21300000, guid: 6c409d35a55ab0548b641f8878e19a8b, type: 3}
     offended: {fileID: 21300000, guid: 18497e7418bc3ad4b9489e32a6e655a4, type: 3}
     worried: {fileID: 21300000, guid: 78a59b0443e0e8d48ab1662791ef9cdf, type: 3}
-    shocked: {fileID: 21300000, guid: f2d10ae1c9ea52c46be48f5afcd6fc5e, type: 3}
+    shocked: {fileID: 21300000, guid: 47a2a84bda23edf4c8868b2e949c2a85, type: 3}
     arrogant: {fileID: 21300000, guid: 2e9091d99f6a95441b97883099c0638c, type: 3}
     angry: {fileID: 21300000, guid: 57994469a696c824ea565fdfe33523a6, type: 3}
+    hello: {fileID: 21300000, guid: afce6853846908e4ba90076ead624eb5, type: 3}

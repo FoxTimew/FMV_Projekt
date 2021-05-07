@@ -17,19 +17,19 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
   dialogueInfo:
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: "Vous \xEAtes un amateur de p\xEAche ?"
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
     characterEmotion: 0
     myText: "Qu'est-ce qui vous fait dire \xE7a ?"
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 6
     myText: Vos bottes, pleines de boues sur le palier.
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
-    characterEmotion: 0
+    characterEmotion: 3
     myText: "Ah... Oui, en effet j'y vais r\xE9guli\xE8rement avec des amis le week-end."
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 9
     myText: Merci pour ces informations. Je vous recontacte si j'ai besoin de vous.
   questionText: 
   optionsInfo:

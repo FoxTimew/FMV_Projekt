@@ -20,17 +20,17 @@ MonoBehaviour:
     characterEmotion: 0
     myText: Pour quelle raison Sophie et vous avez rompus ?
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
-    characterEmotion: 0
+    characterEmotion: 4
     myText: "C'est une question tr\xE8s personnelle..."
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: "Certaines pr\xE9tendent que c'\xE9tait une relation toxique. J'ai besoin
       de votre version."
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
-    characterEmotion: 0
+    characterEmotion: 8
     myText: "N'\xE9coutez pas les ragots..."
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
-    characterEmotion: 0
+    characterEmotion: 4
     myText: "Tout ce que je peux vous dire, c'est que c'\xE9tait une histoire qui
       n'a pas march\xE9."
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}

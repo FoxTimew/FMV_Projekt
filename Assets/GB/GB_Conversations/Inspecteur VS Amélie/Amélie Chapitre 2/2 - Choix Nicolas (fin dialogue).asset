@@ -17,82 +17,82 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
   dialogueInfo:
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: "J\u2019ai pu parler \xE0 d\u2019autres proches de Sophie, dont un certain
       Nicolas. Vous vous connaissez ?"
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 3
     myText: "Nicolas ? Oui, c\u2019est une vieille connaissance. On ne se parle plus
       beaucoup."
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: "Il \xE9tait proche de Sophie ?"
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 9
     myText: Je ne sais pas vraiment...
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 7
     myText: "D'apr\xE8s lui, votre relation avec Sophie \xE9tait ambigue..."
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 7
     myText: "Mais de quoi il se m\xEAle celui-l\xE0 ?"
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: "Du calme, c\u2019est Sophie qui lui en a parl\xE9. Apparemment, elle
       vous trouvait plut\xF4t\u2026 insistante ces derniers temps."
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: 'Je ne vois pas de quoi vous voulez parler... '
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 6
     myText: "Vous ne pensiez peut-\xEAtre pas \xE0 la m\xEAme chose quand vous vous
       \xEAtes vues vendredi soir... Je me trompe ?"
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 8
     myText: . . . . .
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: "Am\xE9lie, je ne suis pas l\xE0 pour vous juger. Mais si vous ne coop\xE9rez
       pas, vous risquez de compliquer la situation..."
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: "Et \xE7a ne sera b\xE9n\xE9fique pour personne."
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 9
     myText: "Bon, tr\xE8s bien..."
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: "J\u2019ai eu des sentiments pour Sophie..."
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: "Quand on s\u2019est vue vendredi soir, j\u2019ai tent\xE9 quelque chose,
       et elle m\u2019a repouss\xE9."
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 8
     myText: "On s\u2019est disput\xE9 alors que je la ramenais chez elle."
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: Et ensuite ?
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: "Je suis retourn\xE9e au bar seule, et j\u2019ai bu toute la nuit."
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: "Vers quelle heure \xEAtes-vous rentr\xE9e ?"
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 3
     myText: "Je ne sais plus trop\u2026 Il devait \xEAtre au moins deux heures du
       matin."
-  - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
     characterEmotion: 0
     myText: "Tr\xE8s bien. Je sais que c\u2019est difficile pour vous, mais c\u2019est
       comme \xE7a que nous allons r\xE9soudre cette affaire."
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 9
     myText: Je vous recontacte si j'ai besoin de vous.
   questionText: Faites votre choix
   optionsInfo:
-  - buttonName: Sortir.
+  - buttonName: Sortir
     nextDialogue: {fileID: 0}
     myEvent:
       m_PersistentCalls:

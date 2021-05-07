@@ -17,10 +17,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f57eb7197e619e64794a2b0922d6b4f6, type: 2}
   dialogueInfo:
   - character: {fileID: 11400000, guid: f57eb7197e619e64794a2b0922d6b4f6, type: 2}
-    characterEmotion: 0
+    characterEmotion: 1
     myText: Bonjour Monsieur, qu'est-ce que je vous sers ?
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 9
     myText: "Rien je vous remercie. Je suis inspecteur, j\u2019enqu\xEAte sur la
       r\xE9cente disparition d\u2019une jeune femme."
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
@@ -31,14 +31,14 @@ MonoBehaviour:
     characterEmotion: 6
     myText: "Mince ! J\u2019ignorais qu\u2019elle avait disparu !"
   - character: {fileID: 11400000, guid: f57eb7197e619e64794a2b0922d6b4f6, type: 2}
-    characterEmotion: 5
+    characterEmotion: 2
     myText: Pauvre gosse, une fille vraiment douce. En quoi puis-je vous aider ?
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
     characterEmotion: 0
     myText: "J'ai comme mission de la retrouver saine et sauve. Puis-je vous poser
       quelques questions s\u2019il vous pla\xEEt ?   "
   - character: {fileID: 11400000, guid: f57eb7197e619e64794a2b0922d6b4f6, type: 2}
-    characterEmotion: 5
+    characterEmotion: 0
     myText: "Oui bien s\xFBr, allez-y ! Si \xE7a peut vous aider \xE0 retrouver la
       gamine !"
   questionText: Faites votre choix
@@ -49,7 +49,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - buttonName: Facture du bar
-    nextDialogue: {fileID: 11400000, guid: 5bddad2c7d1b60c44b87aa2f5630d43f, type: 2}
+    nextDialogue: {fileID: 11400000, guid: 83a627b6f5039164d975308154cbe0a6, type: 2}
     myEvent:
       m_PersistentCalls:
         m_Calls: []

@@ -17,17 +17,16 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
   dialogueInfo:
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 6
     myText: Quelle est votre relation avec Sophie ?
   - character: {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
-    characterEmotion: 0
-    myText: "Mais comment que je la connais, on est trop BFF depuis les \xE9tudes
-      !"
+    characterEmotion: 1
+    myText: "Ma relation ? Mais on est trop BFF depuis les \xE9tudes !"
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 3
     myText: BFF ?
   - character: {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
-    characterEmotion: 0
+    characterEmotion: 4
     myText: Ben ouai vous savez, meilleurs amis quoi !
   - character: {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
     characterEmotion: 0
@@ -36,12 +35,12 @@ MonoBehaviour:
   questionText: 
   optionsInfo:
   - buttonName: Soir disparition
-    nextDialogue: {fileID: 11400000, guid: 47d99fa8de3c2f148b4f013c08eb0d35, type: 2}
+    nextDialogue: {fileID: 11400000, guid: bfd829d160be28d45bbc19e0ffdffcf5, type: 2}
     myEvent:
       m_PersistentCalls:
         m_Calls: []
   - buttonName: "Am\xE9lie"
-    nextDialogue: {fileID: 11400000, guid: 1fc1792095e04a14b86b90034d8c0b47, type: 2}
+    nextDialogue: {fileID: 11400000, guid: d3e8fdfccfc73a5439029db0e900e90f, type: 2}
     myEvent:
       m_PersistentCalls:
         m_Calls: []

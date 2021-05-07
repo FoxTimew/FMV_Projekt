@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4317e486bc6889e4481102920e658482, type: 3}
-  m_Name: "T\xE9l\xE9phone"
+  m_Name: "Inspecteur T\xE9l\xE9phone"
   m_EditorClassIdentifier: 
-  myName: "T\xE9l\xE9phone"
+  myName: INSPECTEUR
   myVoice: {fileID: 8300000, guid: f9880fbb8db7f03418b9f659f9d384da, type: 3}
   emotionPortraits:
-    standard: {fileID: 21300000, guid: 80ac5f7d5e9f98c4281ed8a1c80432d4, type: 3}
-    happy: {fileID: 0}
+    standard: {fileID: 21300000, guid: 654f99ef1c275604b858830714b6b9f5, type: 3}
+    happy: {fileID: 21300000, guid: 702e90dab2926104eb744c67a4af2f6b, type: 3}
     curious: {fileID: 0}
-    thoughtful: {fileID: 0}
+    thoughtful: {fileID: 21300000, guid: 01295d5a1d8395d419d8f0ef828ba985, type: 3}
     offended: {fileID: 0}
-    worried: {fileID: 0}
-    shocked: {fileID: 0}
+    worried: {fileID: 21300000, guid: 612ebb786347cb049bbf28976f4b0671, type: 3}
+    shocked: {fileID: 21300000, guid: f2d10ae1c9ea52c46be48f5afcd6fc5e, type: 3}
     arrogant: {fileID: 0}
     angry: {fileID: 0}

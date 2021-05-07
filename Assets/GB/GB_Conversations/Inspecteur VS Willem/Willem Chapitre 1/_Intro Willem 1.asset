@@ -17,45 +17,45 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
   dialogueInfo:
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 9
     myText: "Bonjour, j\u2019ai quelques questions \xE0 vous poser \xE0 propos de
       la r\xE9cente disparition d\u2019une jeune femme. "
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
-    myText: Sophie, il me semble que vous la connaissez. Puis-je entrer ?
+    characterEmotion: 2
+    myText: Sophie, il me semble que vous la connaissez.
   - character: {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: "Quoi !? Sophie a disparu !? \r\nMy god, c\u2019est une cam\xE9ra cach\xE9e
       ou quoi ?"
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: "Non c\u2019est loin d\u2019\xEAtre une blague monsieur. Elle a disparu
       dans la nuit de vendredi \xE0 samedi."
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
     characterEmotion: 0
     myText: "Puis-je vous poser quelques questions s\u2019il vous pla\xEEt ?"
   - character: {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
-    characterEmotion: 1
+    characterEmotion: 3
     myText: "Je suis choqu\xE9, faut vraiment me retrouver ma Sophie monsieur l\u2019agent
       !"
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: Je ne suis pas agent mais inspecteur monsieur. Je fais tout mon possible
       pour la retrouver saine et sauve.
   questionText: Faites votre choix
   optionsInfo:
   - buttonName: Relation avec Sophie
-    nextDialogue: {fileID: 11400000, guid: 57e473acbbccaba4fa489cfa1b3f7add, type: 2}
+    nextDialogue: {fileID: 11400000, guid: cc577a3881aa7ab4bbc662a070d3041a, type: 2}
     myEvent:
       m_PersistentCalls:
         m_Calls: []
   - buttonName: Soir Disparition
-    nextDialogue: {fileID: 11400000, guid: 47d99fa8de3c2f148b4f013c08eb0d35, type: 2}
+    nextDialogue: {fileID: 11400000, guid: bfd829d160be28d45bbc19e0ffdffcf5, type: 2}
     myEvent:
       m_PersistentCalls:
         m_Calls: []
   - buttonName: "Am\xE9lie"
-    nextDialogue: {fileID: 11400000, guid: 1fc1792095e04a14b86b90034d8c0b47, type: 2}
+    nextDialogue: {fileID: 11400000, guid: d3e8fdfccfc73a5439029db0e900e90f, type: 2}
     myEvent:
       m_PersistentCalls:
         m_Calls: []

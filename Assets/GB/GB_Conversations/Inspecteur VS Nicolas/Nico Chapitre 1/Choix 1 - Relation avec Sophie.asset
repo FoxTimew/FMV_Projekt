@@ -17,10 +17,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
   dialogueInfo:
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: "Comment d\xE9finiriez-vous votre relation avec Sophie ?"
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
-    characterEmotion: 0
+    characterEmotion: 3
     myText: "On est plut\xF4t proches."
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
     characterEmotion: 0
@@ -29,12 +29,12 @@ MonoBehaviour:
   questionText: 
   optionsInfo:
   - buttonName: "Vue pour la derni\xE8re fois"
-    nextDialogue: {fileID: 11400000, guid: bea62969fa5635d4da107f8d127d629e, type: 2}
+    nextDialogue: {fileID: 11400000, guid: 8761604f2a8fbe6439923f0e25e729b3, type: 2}
     myEvent:
       m_PersistentCalls:
         m_Calls: []
   - buttonName: Willem
-    nextDialogue: {fileID: 11400000, guid: 7882e7a2e696f27419ce0ad5d45ef0f2, type: 2}
+    nextDialogue: {fileID: 11400000, guid: dfaebde67805b5d43bec1667247449fb, type: 2}
     myEvent:
       m_PersistentCalls:
         m_Calls: []

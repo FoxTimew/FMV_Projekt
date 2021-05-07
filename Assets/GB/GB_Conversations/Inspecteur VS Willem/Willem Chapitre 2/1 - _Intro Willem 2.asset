@@ -17,42 +17,42 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
   dialogueInfo:
   - character: {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
-    characterEmotion: 0
+    characterEmotion: 4
     myText: Ah c'est vous ! Des nouvelles de Sophie ?
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
     characterEmotion: 0
     myText: "Oui, je suis venu vous informer qu\u2019on l'a retrou..."
   - character: {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
-    characterEmotion: 0
+    characterEmotion: 1
     myText: "Vraiment ?! Oh Monsieur l'agent, \xE7a me soulage \xE9norm\xE9ment d'entendre
       \xE7a\u2026 Elle va bien?"
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: Non... Elle est morte...
   - character: {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: . . .
   - character: {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
-    characterEmotion: 1
+    characterEmotion: 8
     myText: QUOI ?!
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: "Son corps a \xE9t\xE9 retrouv\xE9 dans la for\xEAt, je suis navr\xE9..."
-  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+  - character: {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
+    characterEmotion: 4
     myText: Je... Je ne comprends pas...
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: "J'ai quelques questions \xE0 vous poser..."
-  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+  - character: {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
+    characterEmotion: 8
     myText: "Je suis pas en \xE9tat l\xE0..."
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 6
     myText: "Je sais que c'est difficile, mais l'enqu\xEAte doit avancer le plus
       vite possible si on veut trouver le responsable."
-  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+  - character: {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
+    characterEmotion: 4
     myText: Dites toujours...
   questionText: Faites votre choix
   optionsInfo:

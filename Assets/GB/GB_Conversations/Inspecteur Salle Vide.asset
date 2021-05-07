@@ -10,26 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2b75e1f00cd49ed42b21c074fd95a840, type: 3}
-  m_Name: Choix Vendredi
+  m_Name: Inspecteur Salle Vide
   m_EditorClassIdentifier: 
   characters:
   - {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-  - {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
+  - {fileID: 11400000, guid: 9762317399d9c984fbe88920fb63817d, type: 2}
   dialogueInfo:
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
     characterEmotion: 0
-    myText: Vous avez vu Sophie vendredi ?
-  - character: {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
-    characterEmotion: 0
-    myText: "Oui bien s\xFBr, on est dans la m\xEAme fac."
-  - character: {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
-    characterEmotion: 0
-    myText: "On s'est quitt\xE9s en fin d'apr\xE8s-midi apr\xE8s les cours, je ne
-      l'ai pas revue depuis."
+    myText: "Je n'ai rien \xE0 faire ici."
   questionText: 
   optionsInfo:
-  - buttonName: "Am\xE9lie"
-    nextDialogue: {fileID: 11400000, guid: 1fc1792095e04a14b86b90034d8c0b47, type: 2}
+  - buttonName: Partir
+    nextDialogue: {fileID: 0}
     myEvent:
       m_PersistentCalls:
         m_Calls: []

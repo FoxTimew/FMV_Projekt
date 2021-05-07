@@ -17,22 +17,22 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
   dialogueInfo:
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: Que faisiez-vous vendredi soir, entre 23h et minuit ?
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 4
     myText: Pourquoi cette question ?
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: J'ai besoin de savoir, tout simplement.
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 7
     myText: Attendez, je suis suspecte ? Vous vous fichez de moi ?
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: Calmez-vous...
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: "Je vous l\u2019ai d\xE9j\xE0 dit, je l\u2019ai raccompagn\xE9e chez
       elle, puis je suis rentr\xE9 chez moi."
   questionText: Faites votre choix

@@ -21,17 +21,17 @@ MonoBehaviour:
     myText: "On a retrouv\xE9 un bracelet qui semble appartenir \xE0 Sophie pr\xE8s
       du corps."
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: "\xC7a vous dit quelque chose ?"
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 9
     myText: "Oh mon dieu, oui ! C\u2019est un bracelet que je lui ai offert... Quand
       j'y pense..."
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: Pour quelle occasion ?
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 3
     myText: "Je l\u2019ai trouv\xE9 dans une boutique en me promenant, et je me suis
       dit que \xE7a lui ferait plaisir."
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}

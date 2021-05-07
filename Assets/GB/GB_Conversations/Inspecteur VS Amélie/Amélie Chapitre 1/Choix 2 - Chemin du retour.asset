@@ -17,16 +17,16 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
   dialogueInfo:
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: "Vous n\u2019avez rien remarqu\xE9 de suspect sur le chemin du retour
       ? "
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: Non rien d'inhabituel.
   questionText: 
   optionsInfo:
   - buttonName: Heure
-    nextDialogue: {fileID: 11400000, guid: 21c2a7efbd11ea143a5162b24b5bb5df, type: 2}
+    nextDialogue: {fileID: 11400000, guid: 002f980be368855429873ee39ba244bc, type: 2}
     myEvent:
       m_PersistentCalls:
         m_Calls: []

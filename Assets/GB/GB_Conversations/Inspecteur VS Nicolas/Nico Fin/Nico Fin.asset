@@ -10,30 +10,45 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2b75e1f00cd49ed42b21c074fd95a840, type: 3}
-  m_Name: "Choix 2 Vue pour la derni\xE8re fois"
+  m_Name: Nico Fin
   m_EditorClassIdentifier: 
   characters:
   - {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
   - {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
   dialogueInfo:
-  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
-    myText: "Quand avez-vous vu Sophie pour la derni\xE8re fois ?"
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
     characterEmotion: 0
-    myText: "Elle est venue me voir dans la semaine \xE0 la fermeture de la boulangerie."
+    myText: "Oh, vous \xEAtes de retour ?"
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
     characterEmotion: 0
-    myText: "Quelle jour c'\xE9tait ?"
+    myText: "On peut dire \xE7a."
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
     characterEmotion: 0
-    myText: "Mercredi si je me rappelle bien. Elle voulait discuter. On a fait le
-      chemin jusqu'\xE0 chez elle ensemble."
+    myText: "Qu\u2019est-ce-que je peux faire pour vous ?"
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 0
+    myText: "Vous pouvez me confirmer de nouveau ce que vous faisiez durant la soir\xE9e
+      de mardi vers 23 heures ?"
+  - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
+    characterEmotion: 0
+    myText: "Euh\u2026 J\u2019\xE9tais occup\xE9 \xE0 la boulangerie, pourquoi ?
+      Je vous l\u2019ai d\xE9j\xE0 dit."
+  - character: {fileID: 0}
+    characterEmotion: 0
+    myText: "Vous \xEAtes s\xFBr que vous n\u2019avez pas utilis\xE9 votre voiture
+      plus t\xF4t cette nuit-l\xE0 ?"
+  - character: {fileID: 0}
+    characterEmotion: 0
+    myText: "Euh\u2026 Non. Pourquoi cela ?"
+  - character: {fileID: 0}
+    characterEmotion: 0
+    myText: 
+  - character: {fileID: 0}
+    characterEmotion: 0
+    myText: 
+  - character: {fileID: 0}
+    characterEmotion: 0
+    myText: 
   questionText: 
-  optionsInfo:
-  - buttonName: Willem
-    nextDialogue: {fileID: 11400000, guid: 7882e7a2e696f27419ce0ad5d45ef0f2, type: 2}
-    myEvent:
-      m_PersistentCalls:
-        m_Calls: []
+  optionsInfo: []
   boolIndex: -1

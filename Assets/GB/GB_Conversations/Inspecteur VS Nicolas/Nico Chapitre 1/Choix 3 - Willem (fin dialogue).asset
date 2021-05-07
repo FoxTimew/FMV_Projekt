@@ -17,14 +17,14 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
   dialogueInfo:
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: Vous connaissez un certain Wilhelm ?
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
-    characterEmotion: 0
+    characterEmotion: 4
     myText: "Oui c'est un cingl\xE9. Il est persuad\xE9 que ma relation avec Sophie
       n\u2019est pas saine."
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
-    characterEmotion: 0
+    characterEmotion: 8
     myText: "Le seul qui n'est pas sain avec elle, c'est bien lui. Il doit juste
       \xEAtre jaloux. "
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
@@ -32,39 +32,39 @@ MonoBehaviour:
     myText: "Je vois... Il m\u2019a parl\xE9 d\u2019une relation intime que vous
       avez eu avec Sophie."
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: "Mais il ne peut pas s\u2019occuper de son cul lui..."
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
-    characterEmotion: 0
+    characterEmotion: 4
     myText: "\xC9coutez, j'ai eu une liaison avec Sophie et \xE7a c\u2019est termin\xE9
       normalement, comme dans pleins d'histoires. C'est la vie."
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
     characterEmotion: 0
     myText: "Il n'y a aucune animosit\xE9 entre nous, on s'est quitt\xE9s bons amis."
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 7
     myText: "Je vois. Vous semblez ne pas beaucoup appr\xE9cier Wilhelm, n'est-ce
       pas ?"
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
-    characterEmotion: 0
+    characterEmotion: 8
     myText: "Et c\u2019est r\xE9ciproque, je vous assure. "
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
-    characterEmotion: 0
+    characterEmotion: 4
     myText: "De toute fa\xE7on ce mec est possessif \xE0 mort avec Sophie, \xE7a
       en devient presque maladif."
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 6
     myText: "Tr\xE8s bien. Connaissez-vous d'autres personnes qui connaissent Sophie
       que je pourrais voir ?"
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
-    characterEmotion: 0
+    characterEmotion: 3
     myText: "Vous avez d\xE9j\xE0 vu Willem, donc je vous dirais Am\xE9lie. Je sais
       qu\u2019elles se sont rapproch\xE9es depuis peu. "
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: "Je l'ai d\xE9j\xE0 rencontr\xE9 tout \xE0 l'heure."
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: "C'est une fille \xE9trange. La semaine derni\xE8re, Sophie m\u2019a
       parl\xE9 d'elle. "
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
@@ -72,25 +72,42 @@ MonoBehaviour:
     myText: "Elle avait la sensation qu'Am\xE9lie voulait \xEAtre bien plus qu\u2019une
       amie. Sophie \xE9tait g\xEAn\xE9e et ne savait pas trop comment r\xE9agir. "
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
-    characterEmotion: 0
+    characterEmotion: 4
     myText: "Je l\u2019ai rassur\xE9e, parce que je connais bien Am\xE9lie, je sais
       qu\u2019elle n\u2019est pas ce genre de fille."
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: "C'est-\xE0-dire ?"
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
     characterEmotion: 0
     myText: Vous savez... le genre qui aime les filles quoi....
-  - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
-    characterEmotion: 0
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 5
     myText: "Je vois. Merci pour ces informations. Restez dans le coin, je vais s\xFBrement
       avoir de nouveau besoin de vous."
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
     characterEmotion: 0
     myText: "En journ\xE9e, vous me trouverez toujours ici !"
-  - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
-    characterEmotion: 0
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 9
     myText: "Tr\xE8s bien, je vous remercie. Au revoir."
   questionText: 
-  optionsInfo: []
+  optionsInfo:
+  - buttonName: Sortir de la boulangerie
+    nextDialogue: {fileID: 0}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1939368427593546712, guid: cdc24854452a0ba4d8538691be6dfece, type: 3}
+          m_TargetAssemblyTypeName: ChangeSceneEvent, Assembly-CSharp
+          m_MethodName: ChangeScene
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "E - T\xE9l\xE9phone"
+            m_BoolArgument: 0
+          m_CallState: 2
   boolIndex: -1

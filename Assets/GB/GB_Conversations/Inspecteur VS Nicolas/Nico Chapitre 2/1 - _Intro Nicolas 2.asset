@@ -20,24 +20,24 @@ MonoBehaviour:
     characterEmotion: 0
     myText: "Bienvenue\u2026 Oh re-bonjour. Vous avez du nouveau ?"
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 1
+    characterEmotion: 5
     myText: "Oui, je suis d\xE9sol\xE9 de vous l'annoncer comme \xE7a, mais le corps
       de Sophie a \xE9t\xE9 retrouv\xE9.  "
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
-    characterEmotion: 0
+    characterEmotion: 4
     myText: "Sophie est morte ?! Non\u2026 Pourquoi ?!"
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
-    characterEmotion: 0
+    characterEmotion: 6
     myText: "L'enqu\xEAte est en cours. C'est pour \xE7a que je suis l\xE0."
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
-    characterEmotion: 0
+    characterEmotion: 7
     myText: Attendez, j'ai besoin d'un moment...
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: Je sais que c'est difficile pour vous mais plus vite vous m'aidez, plus
       vite nous trouverons le responsable.
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: "Bon tr\xE8s bien, je vous \xE9coute..."
   questionText: Faites votre choix
   optionsInfo:

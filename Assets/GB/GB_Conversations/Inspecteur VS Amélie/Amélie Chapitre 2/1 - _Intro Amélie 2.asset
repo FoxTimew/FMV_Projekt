@@ -17,17 +17,17 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
   dialogueInfo:
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: "Oh, c\u2019est encore vous ? Des nouvelles de Sophie ?"
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: "J\u2019ai une mauvaise nouvelle Am\xE9lie\u2026 On a retrouv\xE9 le
       corps de Sophie. "
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 6
     myText: . . . . .
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: "Oh mon dieu\u2026 Pourquoi ? Comment est-ce possible ?"
   questionText: Faites votre choix
   optionsInfo:

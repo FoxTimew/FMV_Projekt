@@ -20,31 +20,31 @@ MonoBehaviour:
     characterEmotion: 0
     myText: "Elle a \xE9t\xE9 violemment agress\xE9e."
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: "On a retrouv\xE9 de nombreux signes de lutte. Elle est morte par strangulation."
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 6
     myText: Mon dieu, quelle horreur...
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: "Comment quelqu\u2019un a-t-il pu faire une chose pareille ?"
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 8
     myText: "Je ne comprend pas, j\u2019aurais d\xFB \xEAtre l\xE0\u2026"
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: "Personne n\u2019aurait rien pu faire.\n"
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: "L'enqu\xEAte vient tout juste de commencer.\n"
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 6
     myText: "Et nous allons tout faire pour d\xE9couvrir qui est le responsable."
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
     characterEmotion: 0
     myText: Pourquoi cette vie est-elle si injuste ?
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: "Malheureusement, ce monde est sans piti\xE9\u2026"
   questionText: Faites votre choix
   optionsInfo:

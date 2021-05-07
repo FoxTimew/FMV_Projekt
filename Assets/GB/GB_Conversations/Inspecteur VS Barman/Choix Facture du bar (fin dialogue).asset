@@ -17,36 +17,36 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f57eb7197e619e64794a2b0922d6b4f6, type: 2}
   dialogueInfo:
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 3
     myText: "J\u2019ai trouv\xE9 une facture de votre \xE9tablissement chez Sophie.
       Celle-ci date de vendredi soir, soit le soir de la disparition."
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
     characterEmotion: 2
     myText: 'Vous confirmez sa venue ? '
   - character: {fileID: 11400000, guid: f57eb7197e619e64794a2b0922d6b4f6, type: 2}
-    characterEmotion: 0
+    characterEmotion: 3
     myText: "Effectivement elle est bien venue au bar et y a pass\xE9 la soir\xE9e. "
   - character: {fileID: 11400000, guid: f57eb7197e619e64794a2b0922d6b4f6, type: 2}
-    characterEmotion: 5
+    characterEmotion: 8
     myText: "Je ne pouvais pas me douter qu\u2019elle dispara\xEEtrait juste apr\xE8s
       \xE7a. "
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 4
+    characterEmotion: 5
     myText: "Vous n\u2019avez rien remarqu\xE9 d\u2019\xE9trange ou d\u2019inhabituel
       lors de cette venue ?   "
   - character: {fileID: 11400000, guid: f57eb7197e619e64794a2b0922d6b4f6, type: 2}
-    characterEmotion: 3
+    characterEmotion: 7
     myText: "Non pas vraiment. Enfin, \rpour une fois, elle \xE9tait accompagn\xE9e
       d\u2019une fille du quartier. Am\xE9lie, elle est \xE9tudiante aussi.\n"
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
     characterEmotion: 3
     myText: Je vois...
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 5
+    characterEmotion: 2
     myText: "Il faudrait que j'aille lui rendre visite \xE0 cette Am\xE9lie, vous
       avez son adresse ?"
   - character: {fileID: 11400000, guid: f57eb7197e619e64794a2b0922d6b4f6, type: 2}
-    characterEmotion: 1
+    characterEmotion: 2
     myText: "Oui, elle habite \xE0 deux pas d'ici. Je vous la note de suite."
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
     characterEmotion: 0
@@ -59,8 +59,25 @@ MonoBehaviour:
     characterEmotion: 5
     myText: Je vais tout faire pour, je vous le promets.
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 5
+    characterEmotion: 9
     myText: Au revoir.
   questionText: 
-  optionsInfo: []
+  optionsInfo:
+  - buttonName: Sortir du bar
+    nextDialogue: {fileID: 0}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1939368427593546712, guid: cdc24854452a0ba4d8538691be6dfece, type: 3}
+          m_TargetAssemblyTypeName: ChangeSceneEvent, Assembly-CSharp
+          m_MethodName: ChangeScene
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "Ext\xE9rieur_1"
+            m_BoolArgument: 0
+          m_CallState: 2
   boolIndex: 0

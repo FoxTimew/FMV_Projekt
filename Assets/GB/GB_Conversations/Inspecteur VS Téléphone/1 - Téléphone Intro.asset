@@ -13,31 +13,60 @@ MonoBehaviour:
   m_Name: "1 - T\xE9l\xE9phone Intro"
   m_EditorClassIdentifier: 
   characters:
-  - {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+  - {fileID: 11400000, guid: 4a7130741415ba24581eddee7f397299, type: 2}
   - {fileID: 11400000, guid: 9762317399d9c984fbe88920fb63817d, type: 2}
   dialogueInfo:
-  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+  - character: {fileID: 11400000, guid: 4a7130741415ba24581eddee7f397299, type: 2}
     characterEmotion: 0
-    myText: Oui, commissaire ?
+    myText: "All\xF4, commissaire ? Vous m\u2019entendez ?"
   - character: {fileID: 11400000, guid: 9762317399d9c984fbe88920fb63817d, type: 2}
     characterEmotion: 0
-    myText: "Inspecteur, on a re\xE7u l\u2019appel d\u2019un t\xE9moin qui affirme
-      avoir vu la fille qui s\u2019est faite tu\xE9e en compagnie d\u2019une autre
-      jeune femme, peu avant 23h30. "
+    myText: "Parfaitement Inspecteur, ravi de vous entendre. Vous \xEAtes bien arriv\xE9
+      ?"
+  - character: {fileID: 11400000, guid: 4a7130741415ba24581eddee7f397299, type: 2}
+    characterEmotion: 1
+    myText: "Oui, merci. Vous m\u2019avez dit que la petite s\u2019appelle Sophie
+      c\u2019est bien \xE7a ?"
   - character: {fileID: 11400000, guid: 9762317399d9c984fbe88920fb63817d, type: 2}
     characterEmotion: 0
-    myText: "Elles faisaient route ensemble en direction de l\u2019appartement de
-      Sophie, quand elles se seraient disput\xE9es puis s\xE9par\xE9es."
-  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
-    myText: "Et apr\xE8s ?"
+    myText: "C\u2019est \xE7a. Elle s\u2019appelle Sophie Marezzi, 22 ans, \xE9tudiante
+      \xE0 la Facult\xE9 de sociologie d\u2019Anzin."
   - character: {fileID: 11400000, guid: 9762317399d9c984fbe88920fb63817d, type: 2}
     characterEmotion: 0
-    myText: "Il semblerait que l\u2019autre jeune fille se soit arr\xEAt\xE9e un
-      instant pour s\u2019allumer une cigarette."
+    myText: Elle aurait disparu dans la nuit de mardi, du 4 au 5 mai.
+  - character: {fileID: 11400000, guid: 4a7130741415ba24581eddee7f397299, type: 2}
+    characterEmotion: 3
+    myText: Parfait, je suis devant son appartement.
+  - character: {fileID: 11400000, guid: 4a7130741415ba24581eddee7f397299, type: 2}
+    characterEmotion: 3
+    myText: "J\u2019ai les clefs de l\u2019appartement et le mandat judiciaire, je
+      n\u2019attends plus que votre aval, commissaire.\r"
   - character: {fileID: 11400000, guid: 9762317399d9c984fbe88920fb63817d, type: 2}
     characterEmotion: 0
-    myText: "Tr\xE8s bien, je note \xE7a. Merci pour cette information."
+    myText: "Nous sommes le vendredi 7 mai, il est 7 heures 55, et je vous octroie
+      l\u2019aval de la gendarmerie de Valenciennes pour toute la dur\xE9e de votre
+      enqu\xEAte."
+  - character: {fileID: 11400000, guid: 4a7130741415ba24581eddee7f397299, type: 2}
+    characterEmotion: 0
+    myText: "C\u2019est parfait, j\u2019ai tout ce qu\u2019il me faut ! Tenez-moi
+      au courant si vous avez du nouveau."
   questionText: 
-  optionsInfo: []
+  optionsInfo:
+  - buttonName: Entrer chez Sophie
+    nextDialogue: {fileID: 0}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1939368427593546712, guid: cdc24854452a0ba4d8538691be6dfece, type: 3}
+          m_TargetAssemblyTypeName: ChangeSceneEvent, Assembly-CSharp
+          m_MethodName: ChangeScene
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Sophie
+            m_BoolArgument: 0
+          m_CallState: 2
   boolIndex: -1

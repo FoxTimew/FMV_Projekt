@@ -17,19 +17,19 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
   dialogueInfo:
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 6
     myText: Vous avez vu Sophie vendredi ?
   - character: {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
-    characterEmotion: 0
+    characterEmotion: 3
     myText: "Oui bien s\xFBr, on est dans la m\xEAme fac."
   - character: {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
-    characterEmotion: 0
+    characterEmotion: 6
     myText: "On s'est quitt\xE9s en fin d'apr\xE8s-midi apr\xE8s les cours, je ne
       l'ai pas revue depuis."
   questionText: 
   optionsInfo:
   - buttonName: "Am\xE9lie"
-    nextDialogue: {fileID: 11400000, guid: 1fc1792095e04a14b86b90034d8c0b47, type: 2}
+    nextDialogue: {fileID: 11400000, guid: d3e8fdfccfc73a5439029db0e900e90f, type: 2}
     myEvent:
       m_PersistentCalls:
         m_Calls: []

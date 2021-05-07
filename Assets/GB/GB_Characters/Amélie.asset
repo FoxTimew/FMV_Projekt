@@ -15,12 +15,13 @@ MonoBehaviour:
   myName: AMELIE
   myVoice: {fileID: 8300000, guid: f9880fbb8db7f03418b9f659f9d384da, type: 3}
   emotionPortraits:
-    standard: {fileID: 21300000, guid: 7ec0d86993ee05443a631e0d71091f87, type: 3}
+    standard: {fileID: 21300000, guid: 6c1cb00c98593464f92828b5743f17ff, type: 3}
     happy: {fileID: 21300000, guid: 90edd48fe4f770b47908227799ee6e07, type: 3}
-    curious: {fileID: 0}
-    thoughtful: {fileID: 0}
-    offended: {fileID: 0}
-    worried: {fileID: 0}
-    shocked: {fileID: 0}
-    arrogant: {fileID: 0}
-    angry: {fileID: 0}
+    curious: {fileID: 21300000, guid: fa130a381bf5bf6409e4587c1204df66, type: 3}
+    thoughtful: {fileID: 21300000, guid: d042c7f4b4805d142a63a9cd3912ce9d, type: 3}
+    offended: {fileID: 21300000, guid: 32db1009f3263504caee346921d4478c, type: 3}
+    worried: {fileID: 21300000, guid: b231e3b91635ca14bb509c6b9e58825c, type: 3}
+    shocked: {fileID: 21300000, guid: 19b0ddbfe805cf14f9ac66c7d4c21a53, type: 3}
+    arrogant: {fileID: 21300000, guid: ed844b599ab542e4b86280b0e73dadf7, type: 3}
+    angry: {fileID: 21300000, guid: 62ea6c813508005458295754d574d8ae, type: 3}
+    hello: {fileID: 21300000, guid: 7a32d7cbdf0f10d428985cf35b938e93, type: 3}

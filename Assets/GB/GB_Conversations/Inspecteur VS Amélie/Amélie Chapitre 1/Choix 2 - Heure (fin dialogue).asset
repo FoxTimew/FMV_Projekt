@@ -17,13 +17,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
   dialogueInfo:
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 3
     myText: "\xC0 quelle heure vous \xEAtes-vous quitt\xE9es vendredi ? "
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 9
     myText: "Je l\u2019ai laiss\xE9e au coin de sa rue aux alentours de minuit."
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: "Je suis sotte, j\u2019aurais d\xFB attendre qu'elle rentre chez elle
       pour partir.  "
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
@@ -38,13 +38,30 @@ MonoBehaviour:
     characterEmotion: 0
     myText: Mais il a eu un comportement super bizarre avec elle ces derniers temps.
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 7
     myText: "L\u2019exemple typique du mec beaucoup trop possessif. C\u2019\xE9tait
       limite flippant. Voici son adresse. "
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 9
     myText: "Tr\xE8s bien, je vais rendre visite \xE0 ce Willem. Restez dans les
       parages, je risque d'avoir de nouveau besoin de vous."
   questionText: 
-  optionsInfo: []
+  optionsInfo:
+  - buttonName: "Sortir de chez Am\xE9lie"
+    nextDialogue: {fileID: 0}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1939368427593546712, guid: cdc24854452a0ba4d8538691be6dfece, type: 3}
+          m_TargetAssemblyTypeName: ChangeSceneEvent, Assembly-CSharp
+          m_MethodName: ChangeScene
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "Ext\xE9rieur_2"
+            m_BoolArgument: 0
+          m_CallState: 2
   boolIndex: -1

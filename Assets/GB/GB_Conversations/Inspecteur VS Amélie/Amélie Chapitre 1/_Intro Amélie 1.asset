@@ -17,24 +17,24 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
   dialogueInfo:
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 9
     myText: "Bonjour, je suis d\xE9tective et j\u2019ai quelques questions \xE0 vous
       poser \xE0 propos de la r\xE9cente disparition d\u2019une jeune femme."
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: Sophie, il me semble que vous la connaissez.
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 6
     myText: 'Mon dieu ! Sophie a disparu !? Quand ? '
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 5
     myText: "Dans la nuit de vendredi \xE0 samedi. Je fais tout mon possible pour
       la retrouver saine et sauve.  "
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
-    characterEmotion: 0
+    characterEmotion: 2
     myText: "Puis-je vous poser quelques questions s\u2019il vous pla\xEEt ?"
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
-    characterEmotion: 0
+    characterEmotion: 9
     myText: "Oui \xE9videmment, si je peux aider."
   questionText: Faites votre choix
   optionsInfo:
