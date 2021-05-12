@@ -181,7 +181,7 @@ public class DialogueManager : MonoBehaviour
             {
                 characterPortraits[i].color = hexToColor("5C5C5C");
                 //taille normale (perso qui ne parle pas)
-                characterPortraits[i].rectTransform.localScale = new Vector3(0.12f, 0.12f);
+                characterPortraits[i].rectTransform.localScale = new Vector3(0.14f, 0.14f);
             }
         }
     }

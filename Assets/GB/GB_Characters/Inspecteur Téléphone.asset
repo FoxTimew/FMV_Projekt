@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "Inspecteur T\xE9l\xE9phone"
   m_EditorClassIdentifier: 
   myName: INSPECTEUR
-  myVoice: {fileID: 8300000, guid: f9880fbb8db7f03418b9f659f9d384da, type: 3}
+  myVoice: {fileID: 8300000, guid: 08908ba8089ccf4499266596ce90d595, type: 3}
   emotionPortraits:
     standard: {fileID: 21300000, guid: 654f99ef1c275604b858830714b6b9f5, type: 3}
     happy: {fileID: 21300000, guid: 702e90dab2926104eb744c67a4af2f6b, type: 3}
@@ -24,3 +24,5 @@ MonoBehaviour:
     shocked: {fileID: 21300000, guid: f2d10ae1c9ea52c46be48f5afcd6fc5e, type: 3}
     arrogant: {fileID: 0}
     angry: {fileID: 0}
+    hello: {fileID: 0}
+    dab: {fileID: 0}

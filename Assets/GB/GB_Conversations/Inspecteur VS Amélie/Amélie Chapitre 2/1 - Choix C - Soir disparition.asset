@@ -22,7 +22,7 @@ MonoBehaviour:
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
     characterEmotion: 4
     myText: Pourquoi cette question ?
-  - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
     characterEmotion: 2
     myText: J'ai besoin de savoir, tout simplement.
   - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
@@ -37,12 +37,12 @@ MonoBehaviour:
       elle, puis je suis rentr\xE9 chez moi."
   questionText: Faites votre choix
   optionsInfo:
-  - buttonName: A
+  - buttonName: "For\xEAt"
     nextDialogue: {fileID: 11400000, guid: b6247530f67189f44bad619a9e8c28fe, type: 2}
     myEvent:
       m_PersistentCalls:
         m_Calls: []
-  - buttonName: B
+  - buttonName: Trace de lutte
     nextDialogue: {fileID: 11400000, guid: bfb7c871aa3ef9a43b72fc52eb6f70a2, type: 2}
     myEvent:
       m_PersistentCalls:

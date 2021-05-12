@@ -26,7 +26,7 @@ public class Manager : MonoBehaviour
 		DontDestroyOnLoad(this.gameObject);
 	}
 
-	public void LoadDialogue(string nomDeLaScene)
+    public void LoadDialogue(string nomDeLaScene)
 	{
 		if (!start)
 		{

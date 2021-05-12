@@ -34,9 +34,9 @@ MonoBehaviour:
     characterEmotion: 3
     myText: "Je l\u2019ai trouv\xE9 dans une boutique en me promenant, et je me suis
       dit que \xE7a lui ferait plaisir."
-  - character: {fileID: 11400000, guid: f54b74b0f653d4b4191cb732969badaa, type: 2}
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
     characterEmotion: 0
-    myText: "Elle l\u2019avait l'air de l'appr\xE9cier beaucoup..."
+    myText: "Elle l\u2019avait l'air de l'appr\xE9cier beaucoup en tout cas..."
   questionText: Faites votre choix
   optionsInfo:
   - buttonName: Nicolas

@@ -20,10 +20,10 @@ MonoBehaviour:
     characterEmotion: 0
     myText: "On a retrouv\xE9 un bracelet qui semble appartenir \xE0 Sophie pr\xE8s
       du corps."
-  - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
     characterEmotion: 2
     myText: "\xC7a vous dit quelque chose ?"
-  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+  - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
     characterEmotion: 0
     myText: "Non, \xE7a ne me dit rien du tout."
   questionText: 

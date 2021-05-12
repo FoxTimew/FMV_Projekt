@@ -40,7 +40,7 @@ MonoBehaviour:
     myText: "Tr\xE8s bien, je note \xE7a. Merci pour cette information."
   questionText: 
   optionsInfo:
-  - buttonName: "Continuer l'enqu\xEAte."
+  - buttonName: "Continuer l'enqu\xEAte"
     nextDialogue: {fileID: 0}
     myEvent:
       m_PersistentCalls:

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4317e486bc6889e4481102920e658482, type: 3}
   m_Name: Commissaire
   m_EditorClassIdentifier: 
-  myName: "COMMISSAIRE (t\xE9l\xE9phone)"
-  myVoice: {fileID: 8300000, guid: f9880fbb8db7f03418b9f659f9d384da, type: 3}
+  myName: COMMISSAIRE
+  myVoice: {fileID: 8300000, guid: 08908ba8089ccf4499266596ce90d595, type: 3}
   emotionPortraits:
     standard: {fileID: 21300000, guid: 7098f093c3cd9284bb56786fdeb8895d, type: 3}
     happy: {fileID: 0}
@@ -24,3 +24,5 @@ MonoBehaviour:
     shocked: {fileID: 0}
     arrogant: {fileID: 0}
     angry: {fileID: 0}
+    hello: {fileID: 0}
+    dab: {fileID: 0}

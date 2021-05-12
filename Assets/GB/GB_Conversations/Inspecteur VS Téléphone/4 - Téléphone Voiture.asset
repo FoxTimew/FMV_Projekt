@@ -35,7 +35,7 @@ MonoBehaviour:
     myText: "C'est d\xE9j\xE0 tr\xE8s bien. Merci pour cette information."
   questionText: 
   optionsInfo:
-  - buttonName: "Continuer l'enqu\xEAte."
+  - buttonName: "Continuer l'enqu\xEAte"
     nextDialogue: {fileID: 0}
     myEvent:
       m_PersistentCalls:

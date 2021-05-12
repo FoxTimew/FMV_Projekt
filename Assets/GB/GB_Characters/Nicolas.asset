@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Nicolas
   m_EditorClassIdentifier: 
   myName: NICOLAS
-  myVoice: {fileID: 8300000, guid: f9880fbb8db7f03418b9f659f9d384da, type: 3}
+  myVoice: {fileID: 8300000, guid: 08908ba8089ccf4499266596ce90d595, type: 3}
   emotionPortraits:
     standard: {fileID: 21300000, guid: ac536ee7d5ecd284c8067d8f3534f8b7, type: 3}
     happy: {fileID: 21300000, guid: b0c7bc1ddb86d70468aa5dce088e2794, type: 3}
@@ -25,3 +25,4 @@ MonoBehaviour:
     arrogant: {fileID: 21300000, guid: 55fddbfbf93a8154eb251162008aa07a, type: 3}
     angry: {fileID: 21300000, guid: 0b734ecedffe69b4c84d0b44a11224fd, type: 3}
     hello: {fileID: 21300000, guid: 5d60a10e39007604891dcbaa211e953d, type: 3}
+    dab: {fileID: 21300000, guid: 4ff13ce0d3a88a7479e939c89baa5078, type: 3}

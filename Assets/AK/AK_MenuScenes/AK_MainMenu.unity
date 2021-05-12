@@ -630,6 +630,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 4837524224017840210, guid: c2e23afdb7160d84f8078de35f3e42e7, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 180850679}
+    - target: {fileID: 4837524224017840210, guid: c2e23afdb7160d84f8078de35f3e42e7, type: 3}
+      propertyPath: m_SortingOrder
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 4837524224017840558, guid: c2e23afdb7160d84f8078de35f3e42e7, type: 3}
       propertyPath: m_Name
       value: Options
@@ -783,6 +791,14 @@ PrefabInstance:
     - target: {fileID: 5725204624359928025, guid: 7c89e10e5a27ed347a228ec87ba7b557, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725204624359928026, guid: 7c89e10e5a27ed347a228ec87ba7b557, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 180850679}
+    - target: {fileID: 5725204624359928026, guid: 7c89e10e5a27ed347a228ec87ba7b557, type: 3}
+      propertyPath: m_SortingOrder
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 5725204624359929637, guid: 7c89e10e5a27ed347a228ec87ba7b557, type: 3}
       propertyPath: m_Pivot.x
@@ -1862,7 +1878,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: 6751538ab240f4b4ab6be67316d5536f, type: 2}
   m_audioClip: {fileID: 8300000, guid: b2639c6f097f80b44a13ed27ee82ea6e, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1980,10 +1996,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Inventory_Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 5589330580204244475, guid: 28828e7498b1d2d45b27af94d362ae5f, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5589330580204244475, guid: 28828e7498b1d2d45b27af94d362ae5f, type: 3}
+      propertyPath: m_ScreenMatchMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5589330580204244475, guid: 28828e7498b1d2d45b27af94d362ae5f, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 5589330580204244475, guid: 28828e7498b1d2d45b27af94d362ae5f, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 600
+      objectReference: {fileID: 0}
     - target: {fileID: 5589330580204244476, guid: 28828e7498b1d2d45b27af94d362ae5f, type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 180850679}
+    - target: {fileID: 5589330580204244476, guid: 28828e7498b1d2d45b27af94d362ae5f, type: 3}
+      propertyPath: m_SortingOrder
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 5589330580204244477, guid: 28828e7498b1d2d45b27af94d362ae5f, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -2066,6 +2102,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5589330580204244477, guid: 28828e7498b1d2d45b27af94d362ae5f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9163027332811705960, guid: 28828e7498b1d2d45b27af94d362ae5f, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

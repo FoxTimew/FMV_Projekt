@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Willem
   m_EditorClassIdentifier: 
   myName: WILLEM
-  myVoice: {fileID: 8300000, guid: f9880fbb8db7f03418b9f659f9d384da, type: 3}
+  myVoice: {fileID: 8300000, guid: 08908ba8089ccf4499266596ce90d595, type: 3}
   emotionPortraits:
     standard: {fileID: 21300000, guid: d86bb2e5aace3aa4db01e14e4249259f, type: 3}
     happy: {fileID: 21300000, guid: e7c11f55a3f76b945a1dbbcabe3bfe73, type: 3}
@@ -25,3 +25,4 @@ MonoBehaviour:
     arrogant: {fileID: 21300000, guid: 2f6f584142cab8e49ab110796d901999, type: 3}
     angry: {fileID: 21300000, guid: 3c2930eb13c53b4458656473d613a840, type: 3}
     hello: {fileID: 21300000, guid: 808f92703df194c4ab9088e92feac359, type: 3}
+    dab: {fileID: 0}

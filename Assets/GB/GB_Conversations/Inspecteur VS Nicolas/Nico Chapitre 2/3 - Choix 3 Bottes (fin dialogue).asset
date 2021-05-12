@@ -33,7 +33,7 @@ MonoBehaviour:
     myText: Merci pour ces informations. Je vous recontacte si j'ai besoin de vous.
   questionText: 
   optionsInfo:
-  - buttonName: Sortir.
+  - buttonName: Sortir de la boulangerie
     nextDialogue: {fileID: 0}
     myEvent:
       m_PersistentCalls:

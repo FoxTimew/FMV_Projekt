@@ -90,9 +90,9 @@ MonoBehaviour:
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
     characterEmotion: 9
     myText: Je vous recontacte si j'ai besoin de vous.
-  questionText: Faites votre choix
+  questionText: 
   optionsInfo:
-  - buttonName: Sortir
+  - buttonName: "Sortir de chez Am\xE9lie"
     nextDialogue: {fileID: 0}
     myEvent:
       m_PersistentCalls:

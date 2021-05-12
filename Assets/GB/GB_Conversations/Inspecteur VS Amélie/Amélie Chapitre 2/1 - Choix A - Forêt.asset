@@ -27,12 +27,12 @@ MonoBehaviour:
     myText: "C\u2019est impossible ! Je l\u2019ai raccompagn\xE9e chez elle !"
   questionText: Faites votre choix
   optionsInfo:
-  - buttonName: A1
+  - buttonName: "M\xE9moire"
     nextDialogue: {fileID: 11400000, guid: d1343a4cbd4fd704185d403f5738500d, type: 2}
     myEvent:
       m_PersistentCalls:
         m_Calls: []
-  - buttonName: A2
+  - buttonName: Chez Sophie
     nextDialogue: {fileID: 11400000, guid: eb77eb3822ddd0c47a34c2e577e817fd, type: 2}
     myEvent:
       m_PersistentCalls:

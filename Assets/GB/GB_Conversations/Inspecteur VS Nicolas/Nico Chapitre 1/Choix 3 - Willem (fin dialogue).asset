@@ -18,7 +18,7 @@ MonoBehaviour:
   dialogueInfo:
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
     characterEmotion: 5
-    myText: Vous connaissez un certain Wilhelm ?
+    myText: Vous connaissez un certain Willem ?
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
     characterEmotion: 4
     myText: "Oui c'est un cingl\xE9. Il est persuad\xE9 que ma relation avec Sophie
@@ -43,7 +43,7 @@ MonoBehaviour:
     myText: "Il n'y a aucune animosit\xE9 entre nous, on s'est quitt\xE9s bons amis."
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
     characterEmotion: 7
-    myText: "Je vois. Vous semblez ne pas beaucoup appr\xE9cier Wilhelm, n'est-ce
+    myText: "Je vois. Vous semblez ne pas beaucoup appr\xE9cier Willem, n'est-ce
       pas ?"
   - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
     characterEmotion: 8

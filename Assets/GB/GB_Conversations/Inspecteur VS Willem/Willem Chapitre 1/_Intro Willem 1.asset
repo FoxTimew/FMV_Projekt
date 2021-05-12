@@ -49,7 +49,7 @@ MonoBehaviour:
     myEvent:
       m_PersistentCalls:
         m_Calls: []
-  - buttonName: Soir Disparition
+  - buttonName: Soir disparition
     nextDialogue: {fileID: 11400000, guid: bfd829d160be28d45bbc19e0ffdffcf5, type: 2}
     myEvent:
       m_PersistentCalls:

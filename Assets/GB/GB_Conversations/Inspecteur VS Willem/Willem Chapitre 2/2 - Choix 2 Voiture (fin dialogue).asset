@@ -34,9 +34,22 @@ MonoBehaviour:
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
     characterEmotion: 9
     myText: Je vous recontacte si j'ai besoin de vous.
+  - character: {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
+    characterEmotion: 4
+    myText: Attendez, je sors avec vous, je vais faire un tour.
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 2
+    myText: Quand est-ce que vous comptez revenir ?
+  - character: {fileID: 11400000, guid: 56f922bab3745d341b214083455bbe0c, type: 2}
+    characterEmotion: 3
+    myText: "Je ne sais pas... Un bon moment je pense, j'ai vraiment besoin de prendre
+      l'air avec tout \xE7a..."
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+    characterEmotion: 6
+    myText: "Tr\xE8s bien..."
   questionText: 
   optionsInfo:
-  - buttonName: Sortir.
+  - buttonName: Sortir de chez Willem
     nextDialogue: {fileID: 0}
     myEvent:
       m_PersistentCalls:

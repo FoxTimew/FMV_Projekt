@@ -97,7 +97,7 @@ MonoBehaviour:
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
     characterEmotion: 8
     myText: "Nicolas, je vous arr\xEAte pour le meutre de Sophie Marezzi."
-  - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
+  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
     characterEmotion: 0
     myText: "Vous avez le droit de garder le silence. Tout ce que vous direz pourra
       \xEAtre retenu contre vous."

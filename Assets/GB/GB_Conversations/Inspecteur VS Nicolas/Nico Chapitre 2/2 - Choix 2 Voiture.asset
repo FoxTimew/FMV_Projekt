@@ -19,7 +19,7 @@ MonoBehaviour:
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
     characterEmotion: 2
     myText: "La voiture rouge gar\xE9e devant, c'est la v\xF4tre ?"
-  - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
+  - character: {fileID: 11400000, guid: a1ee367983a04f44fabe37c07b075f6f, type: 2}
     characterEmotion: 0
     myText: Oui c'est bien la mienne !
   - character: {fileID: 11400000, guid: 3924e34b70a1dda419573e9c5e3506a1, type: 2}
@@ -39,7 +39,7 @@ MonoBehaviour:
     myText: Je vois.
   questionText: 
   optionsInfo:
-  - buttonName: 
+  - buttonName: Boulangerie
     nextDialogue: {fileID: 11400000, guid: f9bf56ab192d2a746a8e235399fa25d8, type: 2}
     myEvent:
       m_PersistentCalls:
